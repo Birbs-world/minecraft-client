@@ -1,0 +1,9 @@
+[22:22:40] [main/INFO]: Setting user: endervw
+[22:22:40] [main/INFO]: (Session ID is token:cf5920cb91ef40a595701ec61717354b:ded3f1a6caa549f784999e7f7da65608)
+[22:22:41] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:22:42] [Client thread/ERROR]: Couldn't initialize twitch stream
+[22:22:42] [Client thread/INFO]: Reloading ResourceManager: Default
+[22:22:43] [Sound Library Loader/INFO]: Sound engine started
+[22:22:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:22:44] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:24:19] [Client thread/INFO]: Stopping!

@@ -1,0 +1,48 @@
+[1225/223010:INFO:LauncherAppBrowser.cpp(24)] Work dir is /home/endervw/.minecraft
+
+[1225/223011:INFO:ClientHandler.cpp(182)] Creating launcher window.
+
+[1225/223011:WARNING:mainLinux.cpp(25)] X error received: type 0, serial 295, error_code 8, request_code 42, minor_code 0
+
+[1225/223011:INFO:LauncherAppRenderer.cpp(110)] Javascript bridge extended.
+
+[1225/223012:INFO:ClientHandler.cpp(859)] Preferences / startup: Read preferences
+
+[1225/223012:INFO:ClientHandler.cpp(859)] Preferences: Wrote preferences
+
+[1225/223013:INFO:ClientHandler.cpp(859)] Configurations: Loading profiles
+
+[1225/223013:INFO:ClientHandler.cpp(859)] Configuration d59e115457ad99cb7791001ffe6017f3: Thu Jan 01 1970 12:00:00 GMT+1200 (NZST) < 1970-01-01T00:00:00.000Z
+
+[1225/223013:INFO:ClientHandler.cpp(859)] Configuration Forge: Thu Jan 01 1970 12:00:00 GMT+1200 (NZST) < 1970-01-01T00:00:00.000Z
+
+[1225/223013:INFO:ClientHandler.cpp(859)] Configuration f4058924bf12eab8b398e79c518c28db: Thu Jan 01 1970 12:00:00 GMT+1200 (NZST) < 2018-12-25T09:22:37.694Z
+
+[1225/223013:INFO:ClientHandler.cpp(859)] Configuration 2087951ddd3d3336b646aff4687da6f3: Tue Dec 25 2018 22:22:37 GMT+1300 (NZDT) < 1970-01-01T00:00:00.001Z
+
+[1225/223013:INFO:ClientHandler.cpp(859)] Configurations: Loading settings
+
+[1225/223013:INFO:ClientHandler.cpp(859)] Session: Read authDB
+
+[1225/223013:INFO:LocalVersionProvider.cpp(82)] Looking for installed versions in /home/endervw/.minecraft/versions
+
+[1225/223013:INFO:ClientHandler.cpp(859)] Updating server status
+
+[1225/223013:INFO:GameController.cpp(233)] Reinstancing game callbacks...
+
+[1225/223013:INFO:ClientHandler.cpp(859)] Preferences: Wrote preferences
+
+[1225/223013:INFO:ClientHandler.cpp(859)] GameStarter: Previous instance(s) found
+
+[1225/223013:INFO:ClientHandler.cpp(859)] Session: Validated token
+
+[1225/223013:INFO:ClientHandler.cpp(859)] Preferences: Wrote preferences
+
+[1225/223013:INFO:ClientHandler.cpp(859)] Session: Wrote authDB
+
+[1225/223013:INFO:ClientHandler.cpp(859)] Changing view to: main.news
+
+[1225/223022:INFO:ClientHandler.cpp(859)] Selecting configuration Forge
+
+[1225/223022:INFO:ClientHandler.cpp(859)] Preferences: Wrote preferences
+
