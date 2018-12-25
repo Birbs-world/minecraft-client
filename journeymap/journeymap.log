@@ -63,3 +63,10 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 [22:57:07] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [ForgeMultipart:block:0] (Transparency,Error)
 [22:57:07] [Client thread/INFO] [ColorPalette] Color palette file generated with 1660 colors in 141ms for: /home/endervw/.minecraft/journeymap/colorpalette.json
 [22:57:07] [Client thread/INFO] [ColorManager] Updated color palette file: /home/endervw/.minecraft/journeymap/colorpalette.json
+[23:37:26] [Client thread/INFO] [PropertiesBase] Updating config file from version "null" to "5.1.3": /home/endervw/.minecraft/journeymap/config/5.1/journeymap.core.config
+[23:37:26] [Client thread/INFO] [PropertiesBase] Updating config file from version "null" to "5.1.3": /home/endervw/.minecraft/journeymap/config/5.1/journeymap.fullmap.config
+[23:37:26] [Client thread/INFO] [PropertiesBase] Updating config file from version "null" to "5.1.3": /home/endervw/.minecraft/journeymap/config/5.1/journeymap.waypoint.config
+[23:37:28] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from /home/endervw/.minecraft/journeymap/data/sp/survival/waypoints
+[23:37:28] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[23:37:28] [Client thread/INFO] [JourneymapClient] Mapping started in /home/endervw/.minecraft/journeymap/data/sp/survival/DIM0. Memory: 1216MB total, 481MB free 
+[23:37:28] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
