@@ -1,28 +1,70 @@
-[06:27:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 24052354ms behind, skipping 481047 tick(s)
-[06:28:53] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiInventory
-[06:28:53] [Client thread/INFO]: net.minecraft.inventory.ContainerPlayer
-[06:29:02] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiInventory
-[06:29:02] [Client thread/INFO]: net.minecraft.inventory.ContainerPlayer
-[06:29:39] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiChest
-[06:29:39] [Client thread/INFO]: net.minecraft.inventory.ContainerChest
-[06:29:51] [Client thread/INFO]: tconstruct.tools.gui.ToolForgeGui
-[06:29:51] [Client thread/INFO]: tconstruct.tools.inventory.ToolForgeContainer
-[06:31:05] [Client thread/INFO]: tconstruct.tools.gui.PartCrafterGui
-[06:31:05] [Client thread/INFO]: tconstruct.tools.inventory.PartCrafterChestContainer
-[06:31:13] [Client thread/INFO]: tconstruct.tools.gui.StencilTableGui
-[06:31:13] [Client thread/INFO]: tconstruct.tools.inventory.PatternShaperContainer
-[06:31:28] [Client thread/INFO]: tconstruct.tools.gui.PartCrafterGui
-[06:31:28] [Client thread/INFO]: tconstruct.tools.inventory.PartCrafterChestContainer
-[06:31:49] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiFurnace
-[06:31:49] [Client thread/INFO]: net.minecraft.inventory.ContainerFurnace
-[06:31:51] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiFurnace
-[06:31:51] [Client thread/INFO]: net.minecraft.inventory.ContainerFurnace
-[06:32:11] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiChest
-[06:32:11] [Client thread/INFO]: net.minecraft.inventory.ContainerChest
-[06:35:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10379ms behind, skipping 207 tick(s)
-[06:35:15] [Server thread/INFO]: Saving and pausing game...
-[06:35:15] [Server thread/INFO]: Saving chunks for level 'survival'/Overworld
-[06:35:15] [Server thread/INFO]: Saving chunks for level 'survival'/Nether
-[06:35:15] [Server thread/INFO]: Saving chunks for level 'survival'/The End
-[06:35:21] [Client thread/INFO]: net.minecraft.client.gui.GuiIngameMenu
-[06:35:24] [Client thread/INFO]: net.minecraft.client.gui.GuiIngameMenu
+[08:50:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 62830637ms behind, skipping 1256612 tick(s)
+[08:51:32] [Server thread/WARN]: Time ran backwards! Did the system time change?
+[08:52:28] [Client thread/INFO]: net.minecraft.client.gui.GuiIngameMenu
+[08:52:31] [Client thread/INFO]: net.minecraft.client.gui.GuiChat
+[08:52:34] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[08:52:41] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiContainerCreative
+[08:52:41] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiContainerCreative$ContainerCreative
+[08:52:42] [Client thread/INFO]: net.minecraft.client.gui.GuiChat
+[08:52:45] [Server thread/INFO]: [endervw: Set own game mode to Survival Mode]
+[08:52:45] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[08:53:50] [Client thread/INFO]: net.minecraft.client.gui.GuiChat
+[08:53:53] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiInventory
+[08:53:53] [Client thread/INFO]: net.minecraft.inventory.ContainerPlayer
+[08:54:42] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiInventory
+[08:54:42] [Client thread/INFO]: net.minecraft.inventory.ContainerPlayer
+[08:55:01] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiInventory
+[08:55:01] [Client thread/INFO]: net.minecraft.inventory.ContainerPlayer
+[08:55:09] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiInventory
+[08:55:09] [Client thread/INFO]: net.minecraft.inventory.ContainerPlayer
+[08:55:30] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiInventory
+[08:55:30] [Client thread/INFO]: net.minecraft.inventory.ContainerPlayer
+[08:55:33] [Client thread/INFO]: net.minecraft.client.gui.GuiChat
+[08:55:34] [Server thread/INFO]: [endervw: Set own game mode to Creative Mode]
+[08:55:34] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[08:55:35] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiContainerCreative
+[08:55:35] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiContainerCreative$ContainerCreative
+[08:55:54] [Client thread/INFO]: moze_intel.projecte.gameObjs.gui.GUICondenser
+[08:55:54] [Client thread/INFO]: moze_intel.projecte.gameObjs.container.CondenserContainer
+[08:56:00] [Client thread/INFO]: crazypants.enderio.machine.capbank.GuiCapBank
+[08:56:00] [Client thread/INFO]: crazypants.enderio.machine.capbank.ContainerCapBank
+[08:56:29] [Client thread/INFO]: net.minecraft.client.gui.GuiChat
+[08:56:32] [Server thread/INFO]: [endervw: Set own game mode to Survival Mode]
+[08:56:32] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[08:57:02] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiInventory
+[08:57:02] [Client thread/INFO]: net.minecraft.inventory.ContainerPlayer
+[08:57:36] [Client thread/INFO]: net.minecraft.client.gui.GuiIngameMenu
+[08:59:06] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiInventory
+[08:59:06] [Client thread/INFO]: net.minecraft.inventory.ContainerPlayer
+[08:59:14] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiInventory
+[08:59:14] [Client thread/INFO]: net.minecraft.inventory.ContainerPlayer
+[08:59:16] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiInventory
+[08:59:16] [Client thread/INFO]: net.minecraft.inventory.ContainerPlayer
+[09:00:23] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiInventory
+[09:00:23] [Client thread/INFO]: net.minecraft.inventory.ContainerPlayer
+[09:00:41] [Client thread/INFO]: net.minecraft.client.gui.inventory.GuiInventory
+[09:00:41] [Client thread/INFO]: net.minecraft.inventory.ContainerPlayer
+[09:01:12] [Client thread/INFO]: net.minecraft.client.gui.GuiIngameMenu
+[09:06:01] [Netty Client IO #0/INFO]: Reset configs to client values for com.enderio.core.common.config.ConfigHandler
+[09:06:01] [Client thread/INFO]: Mapping halted in /home/endervw/.minecraft/journeymap/data/sp/survival/DIM0
+[09:06:01] [Server thread/INFO]: endervw lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[09:06:01] [Server thread/INFO]: endervw left the game
+[09:06:01] [Server thread/INFO]: Removing endervw from scheduled timers: Player disconnected.
+[09:06:01] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[09:06:01] [Server thread/INFO]: VoiceServer: Shutting down server...
+[09:06:01] [Server thread/INFO]: Stopping server
+[09:06:01] [Server thread/INFO]: Saving players
+[09:06:01] [Server thread/INFO]: Saving worlds
+[09:06:01] [Server thread/INFO]: Saving chunks for level 'survival'/Overworld
+[09:06:01] [Server thread/INFO]: Saving chunks for level 'survival'/Nether
+[09:06:01] [Server thread/INFO]: Saving chunks for level 'survival'/The End
+[09:06:02] [Server thread/INFO]: Unloading dimension 0
+[09:06:02] [Server thread/INFO]: Unloading dimension -1
+[09:06:02] [Server thread/INFO]: Unloading dimension 1
+[09:06:18] [Server thread/INFO]: Applying holder lookups
+[09:06:18] [Server thread/INFO]: Holder lookups applied
+[09:06:18] [pool-5-thread-1/INFO]: ServerChannelRegister: Dimensional Transceiver data saved to /home/endervw/.minecraft/saves/survival/enderio/dimensionalTransceiver.json
+[09:06:18] [Server thread/INFO]: Completed server-stop actions.
+[09:06:18] [Client thread/INFO]: VoiceServer: Stopping client connection...
+[09:06:18] [Client thread/INFO]: Finished loading Cardboard Box blacklist (loaded 0 entries)
+[09:06:18] [Client thread/INFO]: Reloaded config.

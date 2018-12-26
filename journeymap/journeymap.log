@@ -1,21 +1,12 @@
-[22:56:25] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[22:56:25] [Client thread/INFO] [JourneymapClient] ensureCurrent ENTER
-[22:56:26] [Client thread/ERROR] [JMLogger] Default theme not found in /home/endervw/.minecraft/journeymap/icon/theme/Victorian/Victorian.theme.json: Victorian (SUPPRESSED)
-[22:56:26] [Client thread/INFO] [PropertiesBase] Creating config file: /home/endervw/.minecraft/journeymap/config/5.1/journeymap.core.config
-[22:56:26] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.core.config
-[22:56:26] [Client thread/INFO] [PropertiesBase] Creating config file: /home/endervw/.minecraft/journeymap/config/5.1/journeymap.fullmap.config
-[22:56:26] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.fullmap.config
-[22:56:26] [Client thread/INFO] [PropertiesBase] Creating config file: /home/endervw/.minecraft/journeymap/config/5.1/journeymap.minimap.config
-[22:56:26] [Client thread/INFO] [PropertiesBase] Updating config file from version "null" to "5.1.3": /home/endervw/.minecraft/journeymap/config/5.1/journeymap.minimap.config
-[22:56:26] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.minimap.config
-[22:56:26] [Client thread/INFO] [PropertiesBase] Creating config file: /home/endervw/.minecraft/journeymap/config/5.1/journeymap.minimap2.config
-[22:56:26] [Client thread/INFO] [PropertiesBase] Updating config file from version "null" to "5.1.3": /home/endervw/.minecraft/journeymap/config/5.1/journeymap.minimap2.config
-[22:56:26] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.minimap2.config
-[22:56:26] [Client thread/INFO] [PropertiesBase] Creating config file: /home/endervw/.minecraft/journeymap/config/5.1/journeymap.webmap.config
-[22:56:26] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.webmap.config
-[22:56:26] [Client thread/INFO] [PropertiesBase] Creating config file: /home/endervw/.minecraft/journeymap/config/5.1/journeymap.waypoint.config
-[22:56:26] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.waypoint.config
-[22:56:26] [Client thread/INFO] [?] Version: JourneyMap 5.1.3 Unlimited, built with Forge 10.13.4.1558
+[14:55:08] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[14:55:08] [Client thread/INFO] [JourneymapClient] ensureCurrent ENTER
+[14:55:09] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.core.config
+[14:55:09] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.fullmap.config
+[14:55:09] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.minimap.config
+[14:55:09] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.minimap2.config
+[14:55:09] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.webmap.config
+[14:55:09] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.waypoint.config
+[14:55:09] [Client thread/INFO] [?] Version: JourneyMap 5.1.3 Unlimited, built with Forge 10.13.4.1558
 Forge: 10.13.4.1614
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_US, locale=en_us
 Unlimited Features: 
@@ -30,43 +21,94 @@ FullMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPet
 WaypointProperties{autoHideLabel=true, beaconEnabled=true, boldLabel=false, createDeathpoints=true, fontScale=2, managerEnabled=true, maxDistance=0, name=waypoint, showDistance=true, showName=true, showRotatingBeam=true, showStaticBeam=true, showTexture=true, textureSmall=true}
 WebMapProperties: , enabled=false, port=8080, showMobs=true, showAnimals=true, showVillagers=true, showPets=true, showPlayers=true, showWaypoints=true, entityIconSetName=2D
 CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=3100, cacheMobsData=3000, cachePlayerData=1000, cachePlayersData=2000, cacheVillagersData=2200, caveIgnoreGlass=true, isUpdateCheckEnabled=true, renderDelay=2, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, tileHighDisplayQuality=true, mapTransparency=true, maxAnimalsData=32, maxMobsData=32, maxPlayersData=32, maxVillagersData=32, optionsManagerViewed=, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, renderDistanceCaveMin=3, renderDistanceCaveMax=3, renderDistanceSurfaceMin=4, renderDistanceSurfaceMax=7, revealShape=Circle, themeName=Victorian, tileRenderType=1}
-[22:56:26] [Client thread/INFO] [JourneymapClient] ensureCurrent EXIT, elapsed§8 count §r1§8 avg §r923.54§8ms§r
-[22:56:35] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
-[22:56:35] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
-[22:56:35] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
-[22:56:36] [Client thread/INFO] [PropertiesBase] Updating config file from version "null" to "5.1.3": /home/endervw/.minecraft/journeymap/config/5.1/journeymap.webmap.config
-[22:56:36] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r719.57§8ms§r
-[22:56:37] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 2 column 2
-	at com.google.gson.JsonParser.parse(JsonParser.java:65) ~[JsonParser.class:?]
-	at com.google.gson.JsonParser.parse(JsonParser.java:45) ~[JsonParser.class:?]
-	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:137) [VersionCheck$1.class:?]
+[14:55:09] [Client thread/INFO] [JourneymapClient] ensureCurrent EXIT, elapsed§8 count §r1§8 avg §r560.43§8ms§r
+[14:55:17] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
+[14:55:17] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[14:55:17] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[14:55:17] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r761.8§8ms§r
+[14:55:17] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+java.net.UnknownHostException: widget.mcf.li
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_191]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_191]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_191]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_191]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_191]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_191]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_191]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_191]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_191]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_191]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_191]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:91) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1484) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1482) ~[?:1.8.0_191]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_191]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1481) ~[?:1.8.0_191]
+	at java.net.URL.openStream(URL.java:1045) ~[?:1.8.0_191]
+	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:131) [VersionCheck$1.class:?]
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_191]
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_191]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
-Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 2 column 2
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1505) ~[JsonReader.class:?]
-	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1386) ~[JsonReader.class:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:531) ~[JsonReader.class:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:414) ~[JsonReader.class:?]
-	at com.google.gson.JsonParser.parse(JsonParser.java:60) ~[JsonParser.class:?]
-	... 7 more
-[22:57:05] [Client thread/INFO] [ColorManager] Loading blocks and textures...
-[22:57:06] [Client thread/INFO] [BlockMD] Built BlockMD cache (1839) : BlockMD.reset count 1 avg 241.66ms
-[22:57:06] [Client thread/INFO] [ColorHelper_1_7_10] initBlocksTexture: 2048x2048 loaded in 356.120044ms
-[22:57:06] [Client thread/INFO] [ColorManager] Initialized 1661 block colors from mods and resource packs in 327ms
-[22:57:07] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:1] (OpenToSky,Transparency,Error,TransparentRoof)
-[22:57:07] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:3] (OpenToSky,Transparency,Error,TransparentRoof)
-[22:57:07] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:5] (OpenToSky,Transparency,Error,TransparentRoof)
-[22:57:07] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [ForgeMultipart:block:0] (Transparency,Error)
-[22:57:07] [Client thread/INFO] [ColorPalette] Color palette file generated with 1660 colors in 141ms for: /home/endervw/.minecraft/journeymap/colorpalette.json
-[22:57:07] [Client thread/INFO] [ColorManager] Updated color palette file: /home/endervw/.minecraft/journeymap/colorpalette.json
-[23:37:26] [Client thread/INFO] [PropertiesBase] Updating config file from version "null" to "5.1.3": /home/endervw/.minecraft/journeymap/config/5.1/journeymap.core.config
-[23:37:26] [Client thread/INFO] [PropertiesBase] Updating config file from version "null" to "5.1.3": /home/endervw/.minecraft/journeymap/config/5.1/journeymap.fullmap.config
-[23:37:26] [Client thread/INFO] [PropertiesBase] Updating config file from version "null" to "5.1.3": /home/endervw/.minecraft/journeymap/config/5.1/journeymap.waypoint.config
-[23:37:28] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from /home/endervw/.minecraft/journeymap/data/sp/survival/waypoints
-[23:37:28] [Client thread/INFO] [ColorManager] Blocks and textures are current
-[23:37:28] [Client thread/INFO] [JourneymapClient] Mapping started in /home/endervw/.minecraft/journeymap/data/sp/survival/DIM0. Memory: 1216MB total, 481MB free 
-[23:37:28] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[14:55:46] [Client thread/INFO] [ColorManager] Loading blocks and textures...
+[14:55:46] [Client thread/INFO] [BlockMD] Built BlockMD cache (1839) : BlockMD.reset count 1 avg 250.58ms
+[14:55:46] [Client thread/INFO] [ColorHelper_1_7_10] initBlocksTexture: 2048x2048 loaded in 333.260287ms
+[14:55:46] [Client thread/INFO] [ColorPalette] Existing color palette's resource packs and mod names match current loadout.
+[14:55:46] [Client thread/INFO] [ColorManager] Loaded 1660 block colors from color palette file in 24ms: /home/endervw/.minecraft/journeymap/colorpalette.json
+[14:55:46] [Client thread/INFO] [ColorManager] Initialized 11 block colors from mods and resource packs in 33ms
+[14:55:46] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:1] (OpenToSky,Transparency,Error,TransparentRoof)
+[14:55:46] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:3] (OpenToSky,Transparency,Error,TransparentRoof)
+[14:55:46] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:5] (OpenToSky,Transparency,Error,TransparentRoof)
+[14:55:46] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [ForgeMultipart:block:0] (Transparency,Error)
+[14:55:47] [Client thread/INFO] [ColorPalette] Color palette file generated with 1660 colors in 125ms for: /home/endervw/.minecraft/journeymap/colorpalette.json
+[14:55:47] [Client thread/INFO] [ColorManager] Updated color palette file: /home/endervw/.minecraft/journeymap/colorpalette.json
+[14:56:19] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from /home/endervw/.minecraft/journeymap/data/sp/survival/waypoints
+[14:56:19] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[14:56:19] [Client thread/INFO] [JourneymapClient] Mapping started in /home/endervw/.minecraft/journeymap/data/sp/survival/DIM0. Memory: 1664MB total, 731MB free 
+[14:56:19] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[14:56:21] [JM-task-5/ERROR] [RegionImageHandler] Region file produced error: /home/endervw/.minecraft/journeymap/data/sp/survival/DIM0/night/-1,0.png: javax.imageio.IIOException: Error reading PNG image data
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1345)
+	at com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1614)
+	at javax.imageio.ImageIO.read(ImageIO.java:1448)
+	at javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at journeymap.client.io.RegionImageHandler.readRegionImage(RegionImageHandler.java:100)
+	at journeymap.client.model.ImageHolder.getTexture(ImageHolder.java:141)
+	at journeymap.client.model.ImageHolder.<init>(ImageHolder.java:54)
+	at journeymap.client.model.ImageSet.addHolder(ImageSet.java:133)
+	at journeymap.client.model.RegionImageSet.getHolder(RegionImageSet.java:44)
+	at journeymap.client.model.RegionImageSet.getChunkImage(RegionImageSet.java:52)
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:94)
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:121)
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:75)
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:296)
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:240)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at com.sun.imageio.plugins.png.PNGImageReader.decodePass(PNGImageReader.java:1119)
+	at com.sun.imageio.plugins.png.PNGImageReader.decodeImage(PNGImageReader.java:1223)
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1338)
+	... 21 more
+
+[09:06:01] [Client thread/INFO] [JourneymapClient] Mapping halted in /home/endervw/.minecraft/journeymap/data/sp/survival/DIM0

@@ -27,7 +27,7 @@
       "name": "Forge",
       "type": "custom",
       "created": "2018-12-25T09:30:13.022Z",
-      "lastUsed": "2018-12-25T09:54:50.680Z",
+      "lastUsed": "2018-12-26T01:53:37.616Z",
       "lastVersionId": "1.7.10-Forge10.13.4.1614-1.7.10"
     },
     "f4058924bf12eab8b398e79c518c28db": {
@@ -43,7 +43,7 @@
     "account": "8428932c503548de85788f6cb97b7a8c",
     "profile": "ded3f1a6caa549f784999e7f7da65608"
   },
-  "analyticsToken": "7f86183064128f277e491af95cecc352",
+  "analyticsToken": "70c61d04f921b4ba81a6fab83a4948e0",
   "authenticationDatabase": {
     "8428932c503548de85788f6cb97b7a8c": {
       "accessToken": "cf5920cb91ef40a595701ec61717354b",
