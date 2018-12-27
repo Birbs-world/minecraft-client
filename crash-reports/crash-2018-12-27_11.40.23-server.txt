@@ -1,0 +1,160 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 27/12/18 11:40 AM
+Description: Loading NBT data
+
+java.util.zip.ZipException: incorrect data check
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:164)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readFully(DataInputStream.java:169)
+	at net.minecraft.nbt.NBTTagByteArray.func_152446_a(NBTTagByteArray.java:32)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:398)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:52)
+	at net.minecraft.nbt.NBTTagList.func_152446_a(NBTTagList.java:54)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:398)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:52)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:398)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:52)
+	at net.minecraft.nbt.CompressedStreamTools.func_152455_a(CompressedStreamTools.java:170)
+	at net.minecraft.nbt.CompressedStreamTools.func_152456_a(CompressedStreamTools.java:125)
+	at net.minecraft.nbt.CompressedStreamTools.func_74794_a(CompressedStreamTools.java:120)
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.loadChunk__Async(AnvilChunkLoader.java:121)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage1(ChunkIOProvider.java:20)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage1(ChunkIOProvider.java:12)
+	at net.minecraftforge.common.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:343)
+	at net.minecraftforge.common.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:302)
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:12)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:126)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:101)
+	at net.minecraft.server.MinecraftServer.func_71222_d(MinecraftServer.java:265)
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:78)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:92)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:164)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readFully(DataInputStream.java:169)
+	at net.minecraft.nbt.NBTTagByteArray.func_152446_a(NBTTagByteArray.java:32)
+
+-- NBT Tag --
+Details:
+	Tag name: SkyLight
+	Tag type: 7
+Stacktrace:
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:398)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:52)
+	at net.minecraft.nbt.NBTTagList.func_152446_a(NBTTagList.java:54)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:398)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:52)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:398)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:52)
+	at net.minecraft.nbt.CompressedStreamTools.func_152455_a(CompressedStreamTools.java:170)
+	at net.minecraft.nbt.CompressedStreamTools.func_152456_a(CompressedStreamTools.java:125)
+	at net.minecraft.nbt.CompressedStreamTools.func_74794_a(CompressedStreamTools.java:120)
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.loadChunk__Async(AnvilChunkLoader.java:121)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage1(ChunkIOProvider.java:20)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage1(ChunkIOProvider.java:12)
+	at net.minecraftforge.common.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:343)
+	at net.minecraftforge.common.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:302)
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:12)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:126)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:101)
+	at net.minecraft.server.MinecraftServer.func_71222_d(MinecraftServer.java:265)
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:78)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:92)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Linux (amd64) version 4.15.0-43-generic
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 538509744 bytes (513 MB) / 1073741824 bytes (1024 MB) up to 2147483648 bytes (2048 MB)
+	JVM Flags: 7 total; -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 15, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 52 mods loaded, 52 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAA	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAA	Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAA	appliedenergistics2-core{rv2-stable-10} [AppliedEnergistics2 Core] (minecraft.jar) 
+	UCHIJAA	CodeChickenCore{1.0.7.47} [CodeChicken Core] (minecraft.jar) 
+	UCHIJAA	NotEnoughItems{1.0.5.118} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.5.118-universal.jar) 
+	UCHIJAA	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCHIJAA	debug{1.0} [debug] (denseores-1.6.2.jar) 
+	UCHIJAA	appliedenergistics2{rv2-stable-10} [Applied Energistics 2] (appliedenergistics2-rv2-stable-10.jar) 
+	UCHIJAA	CoFHCore{1.7.10R3.0.3} [CoFH Core] (CoFHCore-[1.7.10]3.0.3-303.jar) 
+	UCHIJAA	Baubles{1.0.1.10} [Baubles] (Baubles-1.7.10-1.0.1.10.jar) 
+	UCHIJAA	ThermalFoundation{1.7.10R1.2.0} [Thermal Foundation] (ThermalFoundation-[1.7.10]1.2.0-102.jar) 
+	UCHIJAA	ThermalExpansion{1.7.10R4.0.3B1} [Thermal Expansion] (ThermalExpansion-[1.7.10]4.0.3B1-218.jar) 
+	UCHIJAA	BigReactors{0.4.3A} [Big Reactors] (BigReactors-0.4.3A.jar) 
+	UCHIJAA	IC2{2.2.810-experimental} [IndustrialCraft 2] (industrialcraft-2-2.2.810-experimental.jar) 
+	UCHIJAA	CompactSolars{4.4.39.315} [Compact Solar Arrays] (CompactSolars-1.7.10-4.4.39.315-universal.jar) 
+	UCHIJAA	endercore{1.7.10-0.2.0.31_beta} [EnderCore] (EnderCore-1.7.10-0.2.0.31_beta.jar) 
+	UCHIJAA	Waila{1.5.10} [Waila] (Waila-1.5.10_1.7.10.jar) 
+	UCHIJAA	EnderIO{1.7.10-2.3.0.422_beta} [Ender IO] (EnderIO-1.7.10-2.3.0.422_beta.jar) 
+	UCHIJAA	EnderStorage{1.4.7.37} [EnderStorage] (EnderStorage-1.7.10-1.4.7.37-universal.jar) 
+	UCHIJAA	EnderTech{1.7.10-0.3.2.405} [EnderTech] (EnderTech-1.7.10-0.3.2.405.jar) 
+	UCHIJAA	fgtXray{1.0.1.75} [Fgt X-Ray] (fgtXray-1.7.10-1.0.1.75.jar) 
+	UCHIJAA	gravestone{0.7.10.3} [Gravestone] (GraveStone+Mod+0.7.10.3.jar) 
+	UCHIJAA	inventorytweaks{1.59-dev-152-cf6e263} [Inventory Tweaks] (InventoryTweaks-1.59-dev-152.jar) 
+	UCHIJAA	IronChest{6.0.62.742} [Iron Chest] (ironchest-1.7.10-6.0.62.742-universal.jar) 
+	UCHIJAA	journeymap{5.1.3} [JourneyMap] (journeymap-1.7.10-5.1.3-unlimited.jar) 
+	UCHIJAA	Mantle{1.7.10-0.3.2.jenkins191} [Mantle] (Mantle-1.7.10-0.3.2b.jar) 
+	UCHIJAA	ForgeMultipart{1.2.0.345} [Forge Multipart] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	UCHIJAA	Mekanism{9.1.0} [Mekanism] (Mekanism-1.7.10-9.1.0.281.jar) 
+	UCHIJAA	NEIAddons{1.12.11.36} [NEI Addons] (neiaddons-1.12.11.36-mc1.7.10.jar) 
+	UCHIJAA	NEIAddons|Developer{1.12.11.36} [NEI Addons: Developer Tools] (neiaddons-1.12.11.36-mc1.7.10.jar) 
+	UCHIJAA	NEIAddons|AppEng{1.12.11.36} [NEI Addons: Applied Energistics 2] (neiaddons-1.12.11.36-mc1.7.10.jar) 
+	UCHIJAA	NEIAddons|Botany{1.12.11.36} [NEI Addons: Botany] (neiaddons-1.12.11.36-mc1.7.10.jar) 
+	UCHIJAA	NEIAddons|Forestry{1.12.11.36} [NEI Addons: Forestry] (neiaddons-1.12.11.36-mc1.7.10.jar) 
+	UCHIJAA	NEIAddons|CraftingTables{1.12.11.36} [NEI Addons: Crafting Tables] (neiaddons-1.12.11.36-mc1.7.10.jar) 
+	UCHIJAA	NEIAddons|ExNihilo{1.12.11.36} [NEI Addons: Ex Nihilo] (neiaddons-1.12.11.36-mc1.7.10.jar) 
+	UCHIJAA	ProjectE{1.7.10-PE1.10.1} [ProjectE] (ProjectE-1.7.10-PE1.10.1.jar) 
+	UCHIJAA	MrTJPCoreMod{1.1.0.31} [MrTJPCore] (MrTJPCore-1.1.0.31-universal.jar) 
+	UCHIJAA	ProjRed|Core{4.7.0pre9.92} [ProjectRed Core] (ProjectRed-1.7.10-4.7.0pre9.92-Base.jar) 
+	UCHIJAA	ProjRed|Transmission{4.7.0pre9.92} [ProjectRed Transmission] (ProjectRed-1.7.10-4.7.0pre9.92-Integration.jar) 
+	UCHIJAA	ProjRed|Exploration{4.7.0pre9.92} [ProjectRed Exploration] (ProjectRed-1.7.10-4.7.0pre9.92-World.jar) 
+	UCHIJAA	TConstruct{1.7.10-1.8.8.build988} [Tinkers' Construct] (TConstruct-1.7.10-1.8.8.jar) 
+	UCHIJAA	ProjRed|Compatibility{4.7.0pre9.92} [ProjectRed Compatibility] (ProjectRed-1.7.10-4.7.0pre9.92-Compat.jar) 
+	UCHIJAA	ProjRed|Integration{4.7.0pre9.92} [ProjectRed Integration] (ProjectRed-1.7.10-4.7.0pre9.92-Integration.jar) 
+	UCHIJAA	ProjRed|Illumination{4.7.0pre9.92} [ProjectRed Illumination] (ProjectRed-1.7.10-4.7.0pre9.92-Lighting.jar) 
+	UCHIJAA	Railcraft{9.8.0.0} [Railcraft] (Railcraft_1.7.10-9.8.0.0.jar) 
+	UCHIJAA	ThermalDynamics{1.7.10R1.1.0} [Thermal Dynamics] (ThermalDynamics-[1.7.10]1.1.0-161.jar) 
+	UCHIJAA	TiCTooltips{1.2.5} [TiC Tooltips] (TiCTooltips-mc1.7.10-1.2.5.jar) 
+	UCHIJAA	WailaHarvestability{1.1.6} [Waila Harvestability] (WailaHarvestability-mc1.7.10-1.1.6.jar) 
+	UCHIJAA	McMultipart{1.2.0.345} [Minecraft Multipart Plugin] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	UCHIJAA	denseores{1.0} [Dense Ores] (denseores-1.6.2.jar) 
+	UCHIJAA	ForgeMicroblock{1.2.0.345} [Forge Microblocks] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	AE2 Version: stable rv2-stable-10 for Forge 10.13.2.1291
+	CoFHCore: -[1.7.10]3.0.3-303
+	ThermalFoundation: -[1.7.10]1.2.0-102
+	ThermalExpansion: -[1.7.10]4.0.3B1-218
+	Mantle Environment: Environment healthy.
+	TConstruct Environment: Environment healthy.
+	ThermalDynamics: -[1.7.10]1.1.0-161
+	EnderIO: No known problems detected.
+	AE2 Integration: IC2:ON, RotaryCraft:OFF, RC:ON, BC:OFF, RF:ON, RFItem:ON, MFR:OFF, DSU:ON, FZ:OFF, FMP:ON, RB:OFF, CLApi:OFF, Waila:ON, InvTweaks:ON, NEI:ON, CraftGuide:OFF, Mekanism:ON, ImmibisMicroblocks:OFF, BetterStorage:OFF
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
