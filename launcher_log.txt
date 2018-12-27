@@ -45590,3 +45590,5 @@ java.io.FileNotFoundException: https://raw.githubusercontent.com/CoFH/Version/ma
 
 [1227/162707:WARNING:mainLinux.cpp(25)] X error received: type 0, serial 6581, error_code 3, request_code 15, minor_code 0
 
+[1227/163133:INFO:ClientHandler.cpp(859)] Updating server status
+
