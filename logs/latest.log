@@ -1,35 +1,50 @@
-[15:56:39] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[15:56:39] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[15:56:39] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[15:56:39] [main/INFO]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
-[15:56:39] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.15.0-43-generic, installed at /usr/lib/jvm/java-8-oracle/jre
-[15:56:40] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[15:56:40] [main/WARN]: The coremod cofh.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[15:56:40] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[15:56:40] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:56:40] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[15:56:40] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:56:40] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:56:40] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:56:44] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[15:56:44] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
-[15:56:44] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:56:44] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:56:44] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:56:44] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:56:44] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[15:56:45] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:56:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[15:56:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[15:56:45] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[15:56:47] [main/INFO]: Setting user: endervw
-[15:56:51] [Client thread/INFO]: LWJGL Version: 2.9.1
-[15:56:52] [Client thread/INFO]: [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
-[15:56:52] [Client thread/ERROR]: Couldn't initialize twitch stream
-[15:56:53] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
-// I just don't know what went wrong :(
+[16:18:58] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:18:58] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:18:58] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[16:18:58] [main/INFO]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[16:18:58] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.15.0-43-generic, installed at /usr/lib/jvm/java-8-oracle/jre
+[16:18:58] [main/INFO]: [AppEng] Core Init
+[16:18:58] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:19:02] [main/INFO]: [codechicken.core.launch.DepLoader$DepLoadInst:download:343]: Download complete
+[16:19:02] [main/WARN]: The coremod cofh.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:19:02] [main/WARN]: The coremod mekanism.common.asm.LoadingHook does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:19:03] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:19:03] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:19:03] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:19:03] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:19:03] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:19:03] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:19:06] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:19:06] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[16:19:06] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:19:06] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:19:06] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:19:06] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:19:07] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:19:07] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:19:07] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:19:08] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:19:08] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:19:08] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[16:19:08] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[16:19:08] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[16:19:09] [main/INFO]: func_146977_a(Lnet/minecraft/inventory/Slot;)V - Transformed
+[16:19:09] [main/INFO]: func_146977_a_original(Lnet/minecraft/inventory/Slot;)V - New Method
+[16:19:09] [main/INFO]: func_146977_a(Lnet/minecraft/inventory/Slot;)V - Invoke Virtual
+[16:19:10] [main/INFO]: Setting user: endervw
+[16:19:11] [main/INFO]: Transforming Class [net.minecraft.entity.projectile.EntityArrow], Method [func_70071_h_]
+[16:19:11] [main/INFO]: Transforming net.minecraft.entity.projectile.EntityArrow Finished.
+[16:19:12] [main/INFO]: Transforming Class [net.minecraft.item.ItemStack], Method [func_77953_t]
+[16:19:12] [main/INFO]: Transforming net.minecraft.item.ItemStack Finished.
+[16:19:12] [main/INFO]: Transforming Class [net.minecraft.inventory.ContainerFurnace], Method [func_82846_b]
+[16:19:12] [main/INFO]: Transforming net.minecraft.inventory.ContainerFurnace Finished.
+[16:19:13] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:19:14] [Client thread/INFO]: [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
+[16:19:14] [Client thread/ERROR]: Couldn't initialize twitch stream
+[16:19:15] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// You're mean.
 
-Time: 27/12/18 3:56 PM
+Time: 27/12/18 4:19 PM
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -44,38 +59,83 @@ Details:
 	Operating System: Linux (amd64) version 4.15.0-43-generic
 	Java Version: 1.8.0_191, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 79375256 bytes (75 MB) / 167772160 bytes (160 MB) up to 2147483648 bytes (2048 MB)
+	Memory: 78453568 bytes (74 MB) / 167772160 bytes (160 MB) up to 2147483648 bytes (2048 MB)
 	JVM Flags: 7 total; -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
 	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 18.0.5' Renderer: 'Mesa DRI Intel(R) Bay Trail '
-[15:56:53] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[15:56:53] [Client thread/INFO]: MinecraftForge v10.13.4.1614 Initialized
-[15:56:53] [Client thread/INFO]: Replaced 183 ore recipies
-[15:56:54] [Client thread/INFO]: Completed early MinecraftForge initialization
-[15:56:54] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[15:56:54] [Client thread/INFO]: Searching /home/endervw/.minecraft/mods for mods
-[15:56:54] [Client thread/INFO]: Also searching /home/endervw/.minecraft/mods/1.7.10 for mods
-[15:57:09] [Client thread/INFO]: Forge Mod Loader has identified 11 mods to load
-[15:57:10] [Client thread/INFO]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.3.138-universal.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[15:57:10] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, <CoFH ASM>, CoFHCore, Mantle, ProjectE, Waila, WailaHarvestability] at CLIENT
-[15:57:10] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, <CoFH ASM>, CoFHCore, Mantle, ProjectE, Waila, WailaHarvestability] at SERVER
-[15:57:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Mantle, FMLFileResourcePack:ProjectE, FMLFileResourcePack:Waila, FMLFileResourcePack:Waila Harvestability
-[15:57:12] [Client thread/INFO]: Processing ObjectHolder annotations
-[15:57:12] [Client thread/INFO]: Found 337 ObjectHolder annotations
-[15:57:12] [Client thread/INFO]: Identifying ItemStackHolder annotations
-[15:57:12] [Client thread/INFO]: Found 0 ItemStackHolder annotations
-[15:57:12] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[15:57:12] [Client thread/INFO]: Registering Default Templates.
-[15:57:12] [Client thread/INFO]: Registering default generators
-[15:57:13] [Client thread/INFO]: Complete
-[15:57:13] [Client thread/INFO]: Mantle (1.7.10-0.3.2.jenkins191) -- Preparing for launch.
-[15:57:13] [Client thread/INFO]: Entering preinitialization phase.
-[15:57:13] [Client thread/INFO]: Loading configuration from disk.
-[15:57:13] [Client thread/INFO]: Configuration load completed.
-[15:57:13] [Client thread/INFO]: Loaded configuration file.
-[15:57:14] [CoFHUpdater:CoFHCore/ERROR]: Update check for CoFH Core failed.
+[16:19:15] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[16:19:15] [Client thread/INFO]: MinecraftForge v10.13.4.1614 Initialized
+[16:19:16] [Client thread/INFO]: Replaced 183 ore recipies
+[16:19:16] [Client thread/INFO]: Completed early MinecraftForge initialization
+[16:19:16] [Client thread/INFO]: [AppEng] Core Init
+[16:19:16] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[16:19:16] [Client thread/INFO]: Searching /home/endervw/.minecraft/mods for mods
+[16:19:16] [Client thread/INFO]: Also searching /home/endervw/.minecraft/mods/1.7.10 for mods
+[16:19:36] [Client thread/WARN]: Mod ForgeMicroblock is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.331
+[16:19:36] [Client thread/WARN]: Mod ForgeMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.331
+[16:19:36] [Client thread/WARN]: Mod McMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.331
+[16:19:36] [Client thread/INFO]: Forge Mod Loader has identified 20 mods to load
+[16:19:37] [Client thread/INFO]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.3.138-universal.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[16:19:38] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, appliedenergistics2-core, CodeChickenCore, NotEnoughItems, <CoFH ASM>, appliedenergistics2, BigReactors, CoFHCore, endercore, EnderIO, Mantle, Mekanism, ProjectE, Waila, WailaHarvestability, ForgeMicroblock, ForgeMultipart, McMultipart] at CLIENT
+[16:19:38] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, appliedenergistics2-core, CodeChickenCore, NotEnoughItems, <CoFH ASM>, appliedenergistics2, BigReactors, CoFHCore, endercore, EnderIO, Mantle, Mekanism, ProjectE, Waila, WailaHarvestability, ForgeMicroblock, ForgeMultipart, McMultipart] at SERVER
+[16:19:41] [Client thread/INFO]: Transforming Class [net.minecraft.inventory.ContainerRepair], Method [func_82848_d]
+[16:19:41] [Client thread/INFO]: Transforming net.minecraft.inventory.ContainerRepair Finished.
+[16:19:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:Big Reactors, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:EnderCore, FMLFileResourcePack:Ender IO, FMLFileResourcePack:Mantle, FMLFileResourcePack:Mekanism, FMLFileResourcePack:ProjectE, FMLFileResourcePack:Waila, FMLFileResourcePack:Waila Harvestability, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin
+[16:19:43] [Client thread/INFO]: Processing ObjectHolder annotations
+[16:19:44] [Client thread/INFO]: Found 410 ObjectHolder annotations
+[16:19:44] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[16:19:44] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[16:19:44] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[16:19:45] [Client thread/INFO]: Pre Initialization ( started )
+[16:19:46] [Client thread/INFO]: func_145841_b(Lnet/minecraft/nbt/NBTTagCompound;)V - Transformed
+[16:19:46] [Client thread/INFO]: func_145839_a(Lnet/minecraft/nbt/NBTTagCompound;)V - Transformed
+[16:19:46] [Client thread/INFO]: Removing Interface ic2.api.energy.tile.IEnergySink from appeng/tile/powersink/IC2 because IC2 integration is disabled.
+[16:19:46] [Client thread/INFO]: Updated appeng/tile/powersink/IC2
+[16:19:46] [Client thread/INFO]: Removing Interface Reika.RotaryCraft.API.Power.AdvancedShaftPowerReceiver from appeng/tile/powersink/RotaryCraft because RotaryCraft integration is disabled.
+[16:19:46] [Client thread/INFO]: Removing Interface Reika.RotaryCraft.API.Interfaces.Transducerable from appeng/tile/powersink/RotaryCraft because RotaryCraft integration is disabled.
+[16:19:46] [Client thread/INFO]: Removing Method Tick_RotaryCraft from appeng/tile/powersink/RotaryCraft because RotaryCraft integration is disabled.
+[16:19:46] [Client thread/INFO]: Updated appeng/tile/powersink/RotaryCraft
+[16:19:46] [Client thread/INFO]: Allowing Interface cofh.api.energy.IEnergyReceiver from appeng/tile/powersink/RedstoneFlux because RF integration is enabled.
+[16:19:46] [Client thread/INFO]: Allowing Interface mekanism.api.energy.IStrictEnergyAcceptor from appeng/tile/powersink/MekJoules because Mekanism integration is enabled.
+[16:19:46] [Client thread/INFO]: Removing Interface powercrystals.minefactoryreloaded.api.rednet.connectivity.IRedNetConnection from appeng/block/networking/BlockCableBus because MFR integration is disabled.
+[16:19:46] [Client thread/INFO]: Removing Method getConnectionType from appeng/block/networking/BlockCableBus because MFR integration is disabled.
+[16:19:46] [Client thread/INFO]: Updated appeng/block/networking/BlockCableBus
+[16:19:47] [Client thread/INFO]: Removing Interface buildcraft.api.tools.IToolWrench from appeng/items/tools/quartz/ToolQuartzWrench because BC integration is disabled.
+[16:19:47] [Client thread/INFO]: Updated appeng/items/tools/quartz/ToolQuartzWrench
+[16:19:47] [Client thread/INFO]: Removing Interface ic2.api.item.ISpecialElectricItem from appeng/items/tools/powered/powersink/IC2 because IC2 integration is disabled.
+[16:19:47] [Client thread/INFO]: Removing Interface ic2.api.item.IElectricItemManager from appeng/items/tools/powered/powersink/IC2 because IC2 integration is disabled.
+[16:19:47] [Client thread/INFO]: Removing Method getManager from appeng/items/tools/powered/powersink/IC2 because IC2 integration is disabled.
+[16:19:47] [Client thread/INFO]: Updated appeng/items/tools/powered/powersink/IC2
+[16:19:47] [Client thread/INFO]: Allowing Interface cofh.api.energy.IEnergyContainerItem from appeng/items/tools/powered/powersink/RedstoneFlux because RFItem integration is enabled.
+[16:19:47] [Client thread/INFO]: Removing Interface buildcraft.api.tools.IToolWrench from appeng/items/tools/ToolNetworkTool because BC integration is disabled.
+[16:19:47] [Client thread/INFO]: Updated appeng/items/tools/ToolNetworkTool
+[16:19:47] [Client thread/INFO]: Removing Interface buildcraft.api.transport.IPipeConnection from appeng/parts/misc/PartStorageBus because BC integration is disabled.
+[16:19:47] [Client thread/INFO]: Removing Method overridePipeConnection from appeng/parts/misc/PartStorageBus because BC integration is disabled.
+[16:19:47] [Client thread/INFO]: Updated appeng/parts/misc/PartStorageBus
+[16:19:47] [Client thread/INFO]: Removing Interface buildcraft.api.transport.IPipeConnection from appeng/parts/p2p/PartP2PItems because BC integration is disabled.
+[16:19:47] [Client thread/INFO]: Removing Method overridePipeConnection from appeng/parts/p2p/PartP2PItems because BC integration is disabled.
+[16:19:47] [Client thread/INFO]: Updated appeng/parts/p2p/PartP2PItems
+[16:19:47] [Client thread/INFO]: Removing Interface ic2.api.energy.tile.IEnergySink from appeng/parts/p2p/PartP2PIC2Power because IC2 integration is disabled.
+[16:19:47] [Client thread/INFO]: Removing Interface ic2.api.energy.tile.IEnergySource from appeng/parts/p2p/PartP2PIC2Power because IC2 integration is disabled.
+[16:19:47] [Client thread/INFO]: Updated appeng/parts/p2p/PartP2PIC2Power
+[16:19:47] [Client thread/INFO]: Allowing Interface cofh.api.energy.IEnergyReceiver from appeng/parts/p2p/PartP2PRFPower because RF integration is enabled.
+[16:19:48] [Client thread/INFO]: Starting AE2 VersionChecker
+[16:19:48] [Client thread/INFO]: Pre Initialization ( ended after 3772ms )
+[16:19:48] [AE2 VersionChecker/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: java.lang.IllegalArgumentException: Raw channel stable did not contain any of the pre-programmed types.
+[16:19:48] [AE2 VersionChecker/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at appeng.services.version.VersionParser.parseChannel(VersionParser.java:117)
+[16:19:48] [AE2 VersionChecker/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at appeng.services.version.VersionParser.parseVersion(VersionParser.java:72)
+[16:19:48] [AE2 VersionChecker/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at appeng.services.version.VersionParser.parse(VersionParser.java:34)
+[16:19:48] [AE2 VersionChecker/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at appeng.services.version.ModVersionFetcher.get(ModVersionFetcher.java:34)
+[16:19:48] [AE2 VersionChecker/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at appeng.services.VersionChecker.processInterval(VersionChecker.java:106)
+[16:19:48] [AE2 VersionChecker/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at appeng.services.VersionChecker.run(VersionChecker.java:86)
+[16:19:48] [AE2 VersionChecker/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.Thread.run(Thread.java:748)
+[16:19:48] [Client thread/INFO]: Registering Default Templates.
+[16:19:48] [Client thread/INFO]: Registering default generators
+[16:19:48] [Client thread/INFO]: Complete
+[16:19:49] [Client thread/INFO]: Attempting to initialize texture error message interceptor.
+[16:19:50] [CoFHUpdater:CoFHCore/ERROR]: Update check for CoFH Core failed.
 java.io.FileNotFoundException: https://raw.githubusercontent.com/CoFH/Version/master/CoFHCore
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890) ~[?:1.8.0_191]
 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:91) ~[?:1.8.0_191]
@@ -87,121 +147,225 @@ java.io.FileNotFoundException: https://raw.githubusercontent.com/CoFH/Version/ma
 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263) ~[?:1.8.0_191]
 	at java.net.URL.openStream(URL.java:1045) ~[?:1.8.0_191]
 	at cofh.mod.updater.UpdateCheckThread.run(UpdateCheckThread.java:44) [UpdateCheckThread.class:?]
-[15:57:15] [Client thread/INFO]: Applying holder lookups
-[15:57:15] [Client thread/INFO]: Holder lookups applied
-[15:57:15] [Client thread/INFO]: Injecting itemstacks
-[15:57:15] [Client thread/INFO]: Itemstack injection complete
-[15:57:16] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[15:57:16] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[15:57:16] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[15:57:16] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[15:57:16] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[15:57:16] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[15:57:16] [Sound Library Loader/INFO]: Sound engine started
-[15:57:17] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[15:57:17] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[15:57:18] [Client thread/INFO]: Entering initialization phase.
-[15:57:18] [Client thread/INFO]: Receiving registration request from [ WailaHarvestability ] for method squeek.wailaharvestability.WailaHandler.callbackRegister
-[15:57:18] [Client thread/INFO]: Injecting itemstacks
-[15:57:18] [Client thread/INFO]: Itemstack injection complete
-[15:57:19] [Client thread/INFO]: Entering postinitialization phase.
-[15:57:19] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[15:57:19] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for TConstruct:pickaxe
-[15:57:19] [Client thread/FATAL]: At line: 5
-[15:57:19] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for ExtraUtilities:unstableingot
-[15:57:19] [Client thread/FATAL]: At line: 6
-[15:57:19] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for ExtraUtilities:unstableIngot
-[15:57:19] [Client thread/FATAL]: At line: 7
-[15:57:19] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for Botania:specialFlower
-[15:57:19] [Client thread/FATAL]: At line: 8
-[15:57:20] [Client thread/INFO]: [mcp.mobius.waila.gui.truetyper.TrueTypeFont:<init>:98]: TrueTypeFont loaded: java.awt.Font[family=Minecraftia,name=Minecraftia Regular,style=plain,size=14] - AntiAlias = true
-[15:57:20] [Client thread/INFO]: CoFH Core found 2 World Generation files present in /home/endervw/.minecraft/config/cofh/world/.
-[15:57:20] [Client thread/INFO]: Reading world generation info from: /home/endervw/.minecraft/config/cofh/world/ThermalFoundation-Ores.json:
-[15:57:20] [Client thread/ERROR]: Invalid block entry!
-[15:57:20] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
-[15:57:20] [Client thread/ERROR]: Error parsing generation entry: "copper" > Please check the parameters. It *may* be a duplicate.
-[15:57:20] [Client thread/ERROR]: Invalid block entry!
-[15:57:20] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
-[15:57:20] [Client thread/ERROR]: Error parsing generation entry: "tin" > Please check the parameters. It *may* be a duplicate.
-[15:57:20] [Client thread/ERROR]: Invalid block entry!
-[15:57:20] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
-[15:57:20] [Client thread/ERROR]: Error parsing generation entry: "silver" > Please check the parameters. It *may* be a duplicate.
-[15:57:20] [Client thread/ERROR]: Invalid block entry!
-[15:57:20] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
-[15:57:20] [Client thread/ERROR]: Error parsing generation entry: "lead" > Please check the parameters. It *may* be a duplicate.
-[15:57:20] [Client thread/ERROR]: Invalid block entry!
-[15:57:20] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
-[15:57:20] [Client thread/ERROR]: Error parsing generation entry: "nickel" > Please check the parameters. It *may* be a duplicate.
-[15:57:20] [Client thread/ERROR]: Invalid block entry!
-[15:57:20] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
-[15:57:20] [Client thread/ERROR]: Error parsing generation entry: "platinum" > Please check the parameters. It *may* be a duplicate.
-[15:57:20] [Client thread/ERROR]: Invalid block entry!
-[15:57:20] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
-[15:57:20] [Client thread/ERROR]: Error parsing generation entry: "copperHigh" > Please check the parameters. It *may* be a duplicate.
-[15:57:20] [Client thread/WARN]: [BC] Class not found. java.lang.ClassNotFoundException: buildcraft.factory.TileTank
-[15:57:20] [Client thread/WARN]: [IndustrialCraft 2] Error while loading generator hooks.java.lang.ClassNotFoundException: ic2.core.block.generator.tileentity.TileEntityBaseGenerator
-[15:57:20] [Client thread/WARN]: [Thaumcraft] Class not found. java.lang.ClassNotFoundException: thaumcraft.common.Thaumcraft
-[15:57:20] [Client thread/INFO]: [EnderStorage] EnderStorage mod not found.
-[15:57:20] [Client thread/INFO]: [GraveStone] GraveStone mod not found.
-[15:57:20] [Client thread/INFO]: [TwilightForestMod] TwilightForestMod mod not found.
-[15:57:20] [Client thread/WARN]: [Thermal Expansion] Error while loading Energy Cell hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.cell.TileCell
-[15:57:20] [Client thread/WARN]: [Thermal Expansion] Error while loading Tank hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.tank.TileTank
-[15:57:20] [Client thread/WARN]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.ender.TileTesseract
-[15:57:20] [Client thread/WARN]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.cache.TileCache
-[15:57:20] [Client thread/WARN]: [Thermal Dynamics] Error while loading FluidDuct hooks.java.lang.ClassNotFoundException: cofh.thermaldynamics.ducts.fluid.TileFluidDuct
-[15:57:20] [Client thread/INFO]: [Engineer Toolbox] Engineer Toolbox mod not found.
-[15:57:20] [Client thread/INFO]: [ProjectRed] ProjectRed|Integration mod not found.
-[15:57:20] [Client thread/INFO]: [ExtraUtilities] ExtraUtilities mod not found.
-[15:57:20] [Client thread/INFO]: [OpenBlocks] OpenBlocks mod not found.
-[15:57:20] [Client thread/INFO]: [Railcraft] Railcraft mod not found.
-[15:57:20] [Client thread/INFO]: [PamHarvestCraft] PamHarvestCraft mod not found.
-[15:57:20] [Client thread/INFO]: [MagicalCrops] MagicalCrops mod not found.
-[15:57:20] [Client thread/INFO]: [Statues] Statues mod not found.
-[15:57:21] [Client thread/INFO]: [Agriculture] Agriculture mod not found.
-[15:57:21] [Client thread/INFO]: Trying to reflect squeek.wailaharvestability.WailaHandler callbackRegister
-[15:57:21] [Client thread/INFO]: Success in registering WailaHarvestability
-[15:57:21] [Client thread/INFO]: Forge Mod Loader has successfully loaded 11 mods
-[15:57:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Mantle, FMLFileResourcePack:ProjectE, FMLFileResourcePack:Waila, FMLFileResourcePack:Waila Harvestability
-[15:57:22] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:57:22] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[15:57:22] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[15:57:22] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[15:57:22] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[15:57:22] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[15:57:22] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[15:57:22] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[15:57:23] [Thread-12/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[15:57:23] [Thread-12/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[15:57:23] [Thread-12/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[15:57:23] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[15:57:23] [Sound Library Loader/INFO]: Sound engine started
-[16:06:50] [Netty Client IO #1/INFO]: Attempting connection with missing mods [] at SERVER
-[16:06:52] [Client thread/INFO]: Connecting to 192.168.1.8, 25565
-[16:06:54] [Netty Client IO #2/INFO]: Server protocol version 2
-[16:06:54] [Netty Client IO #2/INFO]: Attempting connection with missing mods [] at SERVER
-[16:06:54] [Netty Client IO #2/INFO]: Injecting existing block and item data into this client instance
-[16:06:54] [Netty Client IO #2/INFO]: Applying holder lookups
-[16:06:54] [Netty Client IO #2/INFO]: Holder lookups applied
-[16:06:54] [Client thread/INFO]: [Client thread] Client side modded connection established
-[16:06:55] [Client thread/INFO]: Receiving EMC data from server.
-[16:06:55] [Client thread/INFO]: Received all packets!
-[16:06:56] [ProjectE Update Checker Client/INFO]: Mod is updated.
-[16:06:59] [Client thread/INFO]: Received server authentication msg. Remote sync will be activated
-[16:07:00] [Client thread/INFO]: [CHAT] codechickencore.update
-[16:07:14] [Client thread/INFO]: [CHAT] jelleycrafter joined the game
-[16:07:22] [Client thread/INFO]: [CHAT] [Server: Opped jelleycrafter]
-[16:07:39] [Client thread/INFO]: [CHAT] [jelleycrafter: Set own game mode to Creative Mode]
-[16:08:00] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[16:08:00] [Client thread/INFO]: [CHAT] [jelleycrafter: Set endervw's game mode to Survival Mode]
-[16:08:09] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
-[16:08:10] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[16:08:11] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[16:08:11] [Client thread/INFO]: [CHAT] [jelleycrafter: Set endervw's game mode to Creative Mode]
-[16:08:22] [Client thread/INFO]: [CHAT] [Server: Stopping the server]
-[16:08:22] [Client thread/INFO]: Applying holder lookups
-[16:08:22] [Client thread/INFO]: Holder lookups applied
-[16:08:27] [Client thread/INFO]: Stopping!
-[16:08:27] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:08:27] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[16:08:28] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[16:08:28] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:19:52] [Client thread/INFO]: XP Juice registered by Ender IO.
+[16:19:52] [Client thread/WARN]: Could not find Build Craft Wrench definition. Wrench integration with other mods may fail
+[16:19:54] [Client thread/INFO]: Mantle (1.7.10-0.3.2.jenkins191) -- Preparing for launch.
+[16:19:54] [Client thread/INFO]: Entering preinitialization phase.
+[16:19:54] [Client thread/INFO]: Loading configuration from disk.
+[16:19:54] [Client thread/INFO]: Configuration load completed.
+[16:19:58] [Client thread/INFO]: Loaded configuration file.
+[16:19:59] [Client thread/INFO]: Applying holder lookups
+[16:19:59] [Client thread/INFO]: Holder lookups applied
+[16:19:59] [Client thread/INFO]: Injecting itemstacks
+[16:19:59] [Client thread/INFO]: Itemstack injection complete
+[16:20:00] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:20:00] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[16:20:00] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[16:20:00] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:20:00] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[16:20:00] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:20:00] [Sound Library Loader/INFO]: Sound engine started
+[16:20:02] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[16:20:02] [Client thread/INFO]: Removed 0 missing texture stacktraces. Tada!
+[16:20:02] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[16:20:02] [Client thread/INFO]: Removed 0 missing texture stacktraces. Tada!
+[16:20:02] [Client thread/INFO]: Initialization ( started )
+[16:20:03] [Client thread/WARN]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.EnderDust:0
+[16:20:03] [Client thread/WARN]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.EnderDust:0
+[16:20:03] [Client thread/WARN]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.Silicon:0
+[16:20:03] [Client thread/WARN]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.Silicon:0
+[16:20:03] [Client thread/INFO]: Recipes Loading: GrindFZ: 7 loaded.
+[16:20:03] [Client thread/INFO]: Recipes Loading: Inscribe: 8 loaded.
+[16:20:03] [Client thread/INFO]: Recipes Loading: MekEnrichment: 2 loaded.
+[16:20:03] [Client thread/INFO]: Recipes Loading: HCCrusher: 8 loaded.
+[16:20:03] [Client thread/INFO]: Recipes Loading: Pulverizer: 8 loaded.
+[16:20:03] [Client thread/INFO]: Recipes Loading: Press: 3 loaded.
+[16:20:03] [Client thread/INFO]: Recipes Loading: OreRegistration: 14 loaded.
+[16:20:03] [Client thread/INFO]: Recipes Loading: MekCrusher: 3 loaded.
+[16:20:03] [Client thread/INFO]: Recipes Loading: Smelt: 4 loaded.
+[16:20:03] [Client thread/INFO]: Recipes Loading: Shapeless: 56 loaded.
+[16:20:03] [Client thread/INFO]: Recipes Loading: Macerator: 8 loaded.
+[16:20:03] [Client thread/INFO]: Recipes Loading: Grind: 4 loaded.
+[16:20:03] [Client thread/INFO]: Recipes Loading: Shaped: 203 loaded.
+[16:20:03] [Client thread/INFO]: Recipes Loading: Crusher: 9 loaded.
+[16:20:03] [Client thread/INFO]: Initialization ( ended after 843ms )
+[16:20:04] [Client thread/INFO]: Transforming Class [cpw.mods.fml.client.GuiScrollingList], Method [drawScreen]
+[16:20:04] [Client thread/INFO]: Transforming cpw.mods.fml.client.GuiScrollingList Finished.
+[16:20:04] [Client thread/INFO]: Transforming Class [cpw.mods.fml.client.GuiSlotModList], Method [drawBackground]
+[16:20:04] [Client thread/INFO]: Transforming cpw.mods.fml.client.GuiSlotModList Finished.
+[16:20:04] [Client thread/INFO]: [Handlers] Registering handler EventHandlerGui to busses: [FORGE, FML]
+[16:20:04] [Client thread/INFO]: [Handlers] Registering handler ClientHandler to busses: [FORGE, FML]
+[16:20:04] [Client thread/INFO]: [Handlers] Registering handler AutoSmeltHandler to busses: [FORGE, FML]
+[16:20:04] [Client thread/INFO]: [Handlers] Registering handler FireworkHandler to busses: [FORGE, FML]
+[16:20:04] [Client thread/INFO]: [Handlers] Registering handler SpecialTooltipHandler to busses: [FORGE, FML]
+[16:20:04] [Client thread/INFO]: [Handlers] Registering handler RightClickCropHandler to busses: [FORGE, FML]
+[16:20:04] [Client thread/INFO]: [Handlers] Registering handler OreDictTooltipHandler to busses: [FORGE, FML]
+[16:20:04] [Client thread/INFO]: [Handlers] Registering handler EnchantTooltipHandler to busses: [FORGE, FML]
+[16:20:04] [Client thread/INFO]: [Handlers] Registering handler Scheduler to busses: [FORGE, FML]
+[16:20:04] [Client thread/INFO]: [Handlers] Registering handler EnderIOController to busses: [FORGE, FML]
+[16:20:04] [Client thread/INFO]: [Handlers] Registering handler XPBoostHandler to busses: [FORGE, FML]
+[16:20:04] [Client thread/INFO]: Sending dummy event to all mods
+[16:20:04] [Client thread/INFO]: Reloading ingame configs for modid: endercore
+[16:20:04] [Client thread/INFO]: Updating config...
+[16:20:06] [Client thread/INFO]: Entering initialization phase.
+[16:20:06] [Client thread/INFO]: Version 9.1.0 initializing...
+[16:20:07] [Thread-11/ERROR]: An error occured while connecting to URL 'https://dl.dropbox.com/u/90411166/Mod%20Versions/Mekanism.txt.'
+[16:20:07] [Thread-11/ERROR]: An error occured while connecting to URL 'https://dl.dropbox.com/u/90411166/Mod%20Versions/Mekanism.txt.'
+[16:20:07] [Client thread/INFO]: Render registrations complete.
+[16:20:07] [Client thread/INFO]: Initialized HolidayManager.
+[16:20:07] [Client thread/INFO]: Loading complete.
+[16:20:07] [Client thread/INFO]: Mod loaded.
+[16:20:07] [Client thread/INFO]: Receiving registration request from [ EnderIO ] for method crazypants.enderio.waila.WailaCompat.load
+[16:20:07] [Thread-11/ERROR]: An error occured while connecting to URL 'https://dl.dropbox.com/u/90411166/Donators/Mekanism.txt.'
+[16:20:07] [Client thread/INFO]: Receiving registration request from [ appliedenergistics2 ] for method appeng.integration.modules.Waila.register
+[16:20:07] [Client thread/INFO]: Receiving registration request from [ Mekanism ] for method mekanism.common.integration.WailaDataProvider.register
+[16:20:07] [Client thread/INFO]: Receiving registration request from [ WailaHarvestability ] for method squeek.wailaharvestability.WailaHandler.callbackRegister
+[16:20:08] [Client thread/INFO]: Injecting itemstacks
+[16:20:08] [Client thread/INFO]: Itemstack injection complete
+[16:20:08] [Client thread/INFO]: Post Initialization ( started )
+[16:20:08] [Client thread/ERROR]: Trait already registered for net.minecraftforge.fluids.IFluidHandler
+[16:20:08] [Client thread/ERROR]: Trait already registered for net.minecraftforge.fluids.IFluidHandler
+[16:20:08] [Client thread/ERROR]: Trait already registered for net.minecraft.inventory.ISidedInventory
+[16:20:08] [Client thread/ERROR]: Trait already registered for net.minecraft.inventory.ISidedInventory
+[16:20:08] [Client thread/INFO]: Layer: appeng/parts/layers/LayerISidedInventory_TileCableBus loaded successfully - 5294 bytes
+[16:20:08] [Client thread/INFO]: Layer: appeng/parts/layers/LayerIFluidHandler_TileCableBus loaded successfully - 2442 bytes
+[16:20:08] [Client thread/INFO]: Layer: appeng/parts/layers/LayerITileStorageMonitorable_TileCableBus loaded successfully - 1070 bytes
+[16:20:08] [Client thread/INFO]: Layer: appeng/parts/layers/LayerIEnergyHandler_TileCableBus loaded successfully - 1811 bytes
+[16:20:08] [Client thread/INFO]: Layer: appeng/parts/layers/LayerISidedInventory_TileCableBusTESR loaded successfully - 5306 bytes
+[16:20:08] [Client thread/INFO]: Layer: appeng/parts/layers/LayerIFluidHandler_TileCableBusTESR loaded successfully - 2454 bytes
+[16:20:08] [Client thread/INFO]: Layer: appeng/parts/layers/LayerITileStorageMonitorable_TileCableBusTESR loaded successfully - 1082 bytes
+[16:20:08] [Client thread/INFO]: Layer: appeng/parts/layers/LayerIEnergyHandler_TileCableBusTESR loaded successfully - 1823 bytes
+[16:20:08] [Client thread/INFO]: Industrial Craft 2 - Integration Disabled
+[16:20:08] [Client thread/INFO]: Rotary Craft - Integration Disabled
+[16:20:08] [Client thread/INFO]: Railcraft - Integration Disabled
+[16:20:08] [Client thread/INFO]: BuildCraft - Integration Disabled
+[16:20:08] [Client thread/INFO]: RedstoneFlux Power - Tiles - Integration Enable
+[16:20:08] [Client thread/INFO]: RedstoneFlux Power - Items - Integration Enable
+[16:20:08] [Client thread/INFO]: Mine Factory Reloaded - Integration Disabled
+[16:20:08] [Client thread/INFO]: Deep Storage Unit - Integration Enable
+[16:20:08] [Client thread/INFO]: Factorization - Integration Disabled
+[16:20:08] [Client thread/INFO]: Forge MultiPart - Integration Enable
+[16:20:08] [Client thread/INFO]: Rotatable Blocks - Integration Disabled
+[16:20:08] [Client thread/INFO]: Colored Lights Core - Integration Disabled
+[16:20:08] [Client thread/INFO]: Waila - Integration Enable
+[16:20:08] [Client thread/INFO]: Inventory Tweaks - Integration Disabled
+[16:20:08] [Client thread/INFO]: Not Enough Items - Integration Enable
+[16:20:08] [Client thread/INFO]: Craft Guide - Integration Disabled
+[16:20:08] [Client thread/INFO]: Mekanism - Integration Enable
+[16:20:08] [Client thread/INFO]: ImmibisMicroblocks - Integration Disabled
+[16:20:08] [Client thread/INFO]: BetterStorage - Integration Disabled
+[16:20:08] [Client thread/INFO]: Post Initialization ( ended after 736ms )
+[16:20:08] [Client thread/INFO]: [erogenousbeef.bigreactors.utils.intermod.ModHelperMekanism:addMekanismEnrichmentChamberRecipe:71]: [Mekanism] Error while adding recipe: mekanism.api.RecipeHelper
+[16:20:08] [Client thread/INFO]: [erogenousbeef.bigreactors.utils.intermod.ModHelperMekanism:addMekanismCombinerRecipe:87]: [Mekanism] Error while adding recipe: mekanism.api.RecipeHelper
+[16:20:08] [Client thread/INFO]: [erogenousbeef.bigreactors.utils.intermod.ModHelperMekanism:addMekanismCrusherRecipe:103]: [Mekanism] Error while adding recipe: mekanism.api.RecipeHelper
+[16:20:08] [Client thread/INFO]: [erogenousbeef.bigreactors.utils.intermod.ModHelperMekanism:addMekanismCrusherRecipe:103]: [Mekanism] Error while adding recipe: mekanism.api.RecipeHelper
+[16:20:08] [Client thread/INFO]: [erogenousbeef.bigreactors.utils.intermod.ModHelperMekanism:addMekanismCrusherRecipe:103]: [Mekanism] Error while adding recipe: mekanism.api.RecipeHelper
+[16:20:08] [Client thread/INFO]: [erogenousbeef.bigreactors.utils.intermod.ModHelperMekanism:addMekanismCrusherRecipe:103]: [Mekanism] Error while adding recipe: mekanism.api.RecipeHelper
+[16:20:09] [Client thread/INFO]: [mcp.mobius.waila.gui.truetyper.TrueTypeFont:<init>:98]: TrueTypeFont loaded: java.awt.Font[family=Minecraftia,name=Minecraftia Regular,style=plain,size=14] - AntiAlias = true
+[16:20:09] [Client thread/INFO]: Loaded 2 grinding balls from SAG Mill config.
+[16:20:09] [Client thread/INFO]: Excluding 9 recipes from grinding balls bonus.
+[16:20:09] [Client thread/INFO]: Found 66 valid SAG Mill recipes in config.
+[16:20:10] [Client thread/WARN]: Not adding supplied recipe as a recipe already exists for the input: 1xtile.sand@0
+[16:20:10] [Client thread/INFO]: Finished processing SAG Mill recipes. 65 recipes avaliable.
+[16:20:10] [Client thread/INFO]: Found 30 valid Alloy Smelter recipes in config.
+[16:20:10] [Client thread/INFO]: Finished processing Alloy Smelter recipes. 30 recipes avaliable.
+[16:20:10] [Client thread/INFO]: AlloyRecipeManager: Vannila smelting in AlloySmelting enabled=true
+[16:20:10] [Client thread/INFO]: Found 4 valid Slice'N'Splice recipes in config.
+[16:20:10] [Client thread/INFO]: Finished processing Slice'N'Splice recipes. 4 recipes avaliable.
+[16:20:10] [Client thread/INFO]: Found 4 valid Vat recipes in config.
+[16:20:10] [Client thread/INFO]: Finished processing Vat recipes. 4 recipes avaliable.
+[16:20:10] [Client thread/WARN]: Could not find enchantment with name enchantment.enderzoo.witherArrow when parsing enchanter recipes.
+[16:20:10] [Client thread/WARN]: Could not find enchantment with name enchantment.enderzoo.witherWeapon when parsing enchanter recipes.
+[16:20:10] [Client thread/WARN]: Could not find enchantment with name enchantment.enderzoo.witherWeapon when parsing enchanter recipes.
+[16:20:10] [Client thread/WARN]: Could not find enchantment with name enchantment.repair when parsing enchanter recipes.
+[16:20:10] [Client thread/WARN]: Could not find enchantment with name enchantment.soul_stealer when parsing enchanter recipes.
+[16:20:10] [Client thread/ERROR]: Valid input found for enchantment enchant.cofh.holding not found.
+[16:20:10] [Client thread/ERROR]: Valid input found for enchantment enchant.cofh.multishot not found.
+[16:20:10] [Client thread/INFO]: Loaded 27 recipes for Enchanter
+[16:20:10] [Client thread/INFO]: Entering postinitialization phase.
+[16:20:10] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[16:20:10] [Client thread/INFO]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[16:20:10] [Client thread/INFO]: Finished loading Cardboard Box blacklist (loaded 0 entries)
+[16:20:10] [Client thread/INFO]: Hooking complete.
+[16:20:10] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for TConstruct:pickaxe
+[16:20:10] [Client thread/FATAL]: At line: 5
+[16:20:10] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for ExtraUtilities:unstableingot
+[16:20:11] [Client thread/FATAL]: At line: 6
+[16:20:11] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for ExtraUtilities:unstableIngot
+[16:20:11] [Client thread/FATAL]: At line: 7
+[16:20:11] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for Botania:specialFlower
+[16:20:11] [Client thread/FATAL]: At line: 8
+[16:20:11] [Client thread/INFO]: CoFH Core found 2 World Generation files present in /home/endervw/.minecraft/config/cofh/world/.
+[16:20:11] [Client thread/INFO]: Reading world generation info from: /home/endervw/.minecraft/config/cofh/world/ThermalFoundation-Ores.json:
+[16:20:11] [Client thread/ERROR]: Invalid block entry!
+[16:20:11] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
+[16:20:11] [Client thread/ERROR]: Error parsing generation entry: "copper" > Please check the parameters. It *may* be a duplicate.
+[16:20:11] [Client thread/ERROR]: Invalid block entry!
+[16:20:11] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
+[16:20:11] [Client thread/ERROR]: Error parsing generation entry: "tin" > Please check the parameters. It *may* be a duplicate.
+[16:20:11] [Client thread/ERROR]: Invalid block entry!
+[16:20:11] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
+[16:20:11] [Client thread/ERROR]: Error parsing generation entry: "silver" > Please check the parameters. It *may* be a duplicate.
+[16:20:11] [Client thread/ERROR]: Invalid block entry!
+[16:20:11] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
+[16:20:11] [Client thread/ERROR]: Error parsing generation entry: "lead" > Please check the parameters. It *may* be a duplicate.
+[16:20:11] [Client thread/ERROR]: Invalid block entry!
+[16:20:11] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
+[16:20:11] [Client thread/ERROR]: Error parsing generation entry: "nickel" > Please check the parameters. It *may* be a duplicate.
+[16:20:11] [Client thread/ERROR]: Invalid block entry!
+[16:20:11] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
+[16:20:11] [Client thread/ERROR]: Error parsing generation entry: "platinum" > Please check the parameters. It *may* be a duplicate.
+[16:20:11] [Client thread/ERROR]: Invalid block entry!
+[16:20:11] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
+[16:20:11] [Client thread/ERROR]: Error parsing generation entry: "copperHigh" > Please check the parameters. It *may* be a duplicate.
+[16:20:11] [Client thread/WARN]: [BC] Class not found. java.lang.ClassNotFoundException: buildcraft.factory.TileTank
+[16:20:11] [Client thread/WARN]: [IndustrialCraft 2] Error while loading generator hooks.java.lang.ClassNotFoundException: ic2.core.block.generator.tileentity.TileEntityBaseGenerator
+[16:20:11] [Client thread/WARN]: [Thaumcraft] Class not found. java.lang.ClassNotFoundException: thaumcraft.common.Thaumcraft
+[16:20:11] [Client thread/INFO]: [EnderStorage] EnderStorage mod not found.
+[16:20:11] [Client thread/INFO]: [GraveStone] GraveStone mod not found.
+[16:20:11] [Client thread/INFO]: [TwilightForestMod] TwilightForestMod mod not found.
+[16:20:11] [Client thread/WARN]: [Thermal Expansion] Error while loading Energy Cell hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.cell.TileCell
+[16:20:11] [Client thread/WARN]: [Thermal Expansion] Error while loading Tank hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.tank.TileTank
+[16:20:11] [Client thread/WARN]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.ender.TileTesseract
+[16:20:11] [Client thread/WARN]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.cache.TileCache
+[16:20:11] [Client thread/WARN]: [Thermal Dynamics] Error while loading FluidDuct hooks.java.lang.ClassNotFoundException: cofh.thermaldynamics.ducts.fluid.TileFluidDuct
+[16:20:11] [Client thread/INFO]: [Engineer Toolbox] Engineer Toolbox mod not found.
+[16:20:11] [Client thread/INFO]: [ProjectRed] ProjectRed|Integration mod not found.
+[16:20:11] [Client thread/INFO]: [ExtraUtilities] ExtraUtilities mod not found.
+[16:20:11] [Client thread/INFO]: [OpenBlocks] OpenBlocks mod not found.
+[16:20:11] [Client thread/INFO]: [Railcraft] Railcraft mod not found.
+[16:20:11] [Client thread/INFO]: [PamHarvestCraft] PamHarvestCraft mod not found.
+[16:20:11] [Client thread/INFO]: [MagicalCrops] MagicalCrops mod not found.
+[16:20:11] [Client thread/INFO]: [Statues] Statues mod not found.
+[16:20:11] [Client thread/INFO]: [Agriculture] Agriculture mod not found.
+[16:20:11] [Client thread/INFO]: Forge Multipart found and dedicated handler registered
+[16:20:11] [Client thread/INFO]: Trying to reflect crazypants.enderio.waila.WailaCompat load
+[16:20:11] [Client thread/INFO]: Success in registering EnderIO
+[16:20:11] [Client thread/INFO]: Trying to reflect appeng.integration.modules.Waila register
+[16:20:11] [Client thread/INFO]: Success in registering appliedenergistics2
+[16:20:11] [Client thread/INFO]: Trying to reflect mekanism.common.integration.WailaDataProvider register
+[16:20:11] [Client thread/INFO]: Success in registering Mekanism
+[16:20:11] [Client thread/INFO]: Trying to reflect squeek.wailaharvestability.WailaHandler callbackRegister
+[16:20:11] [Client thread/INFO]: Success in registering WailaHarvestability
+[16:20:11] [Client thread/INFO]: Forge Mod Loader has successfully loaded 20 mods
+[16:20:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:Big Reactors, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:EnderCore, FMLFileResourcePack:Ender IO, FMLFileResourcePack:Mantle, FMLFileResourcePack:Mekanism, FMLFileResourcePack:ProjectE, FMLFileResourcePack:Waila, FMLFileResourcePack:Waila Harvestability, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin
+[16:20:17] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[16:20:17] [Client thread/INFO]: Removed 0 missing texture stacktraces. Tada!
+[16:20:18] [Client thread/INFO]: Created: 512x512 textures/items-atlas
+[16:20:18] [Client thread/INFO]: Removed 0 missing texture stacktraces. Tada!
+[16:20:18] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:20:18] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[16:20:18] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[16:20:18] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:20:18] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:20:18] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[16:20:18] [Thread-14/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[16:20:18] [Thread-14/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:20:18] [Thread-14/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[16:20:18] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:20:18] [Sound Library Loader/INFO]: Sound engine started
+[16:20:19] [Client thread/INFO]: Stopping!
+[16:20:19] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:20:19] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[16:20:19] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[16:20:19] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
