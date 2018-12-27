@@ -1,12 +1,12 @@
-[13:02:29] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[13:02:29] [Client thread/INFO] [JourneymapClient] ensureCurrent ENTER
-[13:02:29] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.core.config
-[13:02:29] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.fullmap.config
-[13:02:29] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.minimap.config
-[13:02:29] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.minimap2.config
-[13:02:29] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.webmap.config
-[13:02:29] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.waypoint.config
-[13:02:29] [Client thread/INFO] [?] Version: JourneyMap 5.1.3 Unlimited, built with Forge 10.13.4.1558
+[14:44:07] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[14:44:07] [Client thread/INFO] [JourneymapClient] ensureCurrent ENTER
+[14:44:08] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.core.config
+[14:44:08] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.fullmap.config
+[14:44:08] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.minimap.config
+[14:44:08] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.minimap2.config
+[14:44:08] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.webmap.config
+[14:44:08] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from /home/endervw/.minecraft/journeymap/config/5.1/journeymap.waypoint.config
+[14:44:08] [Client thread/INFO] [?] Version: JourneyMap 5.1.3 Unlimited, built with Forge 10.13.4.1558
 Forge: 10.13.4.1614
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_US, locale=en_us
 Unlimited Features: 
@@ -21,12 +21,12 @@ FullMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPet
 WaypointProperties{autoHideLabel=true, beaconEnabled=true, boldLabel=false, createDeathpoints=true, fontScale=2, managerEnabled=true, maxDistance=0, name=waypoint, showDistance=true, showName=true, showRotatingBeam=true, showStaticBeam=true, showTexture=true, textureSmall=true}
 WebMapProperties: , enabled=false, port=8080, showMobs=true, showAnimals=true, showVillagers=true, showPets=true, showPlayers=true, showWaypoints=true, entityIconSetName=2D
 CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=3100, cacheMobsData=3000, cachePlayerData=1000, cachePlayersData=2000, cacheVillagersData=2200, caveIgnoreGlass=true, isUpdateCheckEnabled=true, renderDelay=2, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, tileHighDisplayQuality=true, mapTransparency=true, maxAnimalsData=32, maxMobsData=32, maxPlayersData=32, maxVillagersData=32, optionsManagerViewed=, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, renderDistanceCaveMin=3, renderDistanceCaveMax=3, renderDistanceSurfaceMin=4, renderDistanceSurfaceMax=7, revealShape=Circle, themeName=Victorian, tileRenderType=1}
-[13:02:29] [Client thread/INFO] [JourneymapClient] ensureCurrent EXIT, elapsed§8 count §r1§8 avg §r582.36§8ms§r
-[13:02:38] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
-[13:02:38] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
-[13:02:38] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
-[13:02:38] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r751.79§8ms§r
-[13:02:39] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+[14:44:08] [Client thread/INFO] [JourneymapClient] ensureCurrent EXIT, elapsed§8 count §r1§8 avg §r692.16§8ms§r
+[14:44:16] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
+[14:44:16] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[14:44:16] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[14:44:17] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r773.2§8ms§r
+[14:44:17] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 2 column 2
 	at com.google.gson.JsonParser.parse(JsonParser.java:65) ~[JsonParser.class:?]
 	at com.google.gson.JsonParser.parse(JsonParser.java:45) ~[JsonParser.class:?]
@@ -43,20 +43,15 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 	at com.google.gson.stream.JsonReader.peek(JsonReader.java:414) ~[JsonReader.class:?]
 	at com.google.gson.JsonParser.parse(JsonParser.java:60) ~[JsonParser.class:?]
 	... 7 more
-[13:03:07] [Client thread/INFO] [ColorManager] Loading blocks and textures...
-[13:03:08] [Client thread/INFO] [BlockMD] Built BlockMD cache (1839) : BlockMD.reset count 1 avg 298.63ms
-[13:03:08] [Client thread/INFO] [ColorHelper_1_7_10] initBlocksTexture: 2048x2048 loaded in 331.61455ms
-[13:03:08] [Client thread/INFO] [ColorPalette] Existing color palette's resource packs and mod names match current loadout.
-[13:03:08] [Client thread/INFO] [ColorManager] Loaded 1660 block colors from color palette file in 23ms: /home/endervw/.minecraft/journeymap/colorpalette.json
-[13:03:08] [Client thread/INFO] [ColorManager] Initialized 11 block colors from mods and resource packs in 32ms
-[13:03:08] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:1] (OpenToSky,Transparency,Error,TransparentRoof)
-[13:03:08] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:3] (OpenToSky,Transparency,Error,TransparentRoof)
-[13:03:08] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:5] (OpenToSky,Transparency,Error,TransparentRoof)
-[13:03:08] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [ForgeMultipart:block:0] (Transparency,Error)
-[13:03:08] [Client thread/INFO] [ColorPalette] Color palette file generated with 1660 colors in 136ms for: /home/endervw/.minecraft/journeymap/colorpalette.json
-[13:03:08] [Client thread/INFO] [ColorManager] Updated color palette file: /home/endervw/.minecraft/journeymap/colorpalette.json
-[13:03:39] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from /home/endervw/.minecraft/journeymap/data/sp/survival/waypoints
-[13:03:39] [Client thread/INFO] [ColorManager] Blocks and textures are current
-[13:03:40] [Client thread/INFO] [JourneymapClient] Mapping started in /home/endervw/.minecraft/journeymap/data/sp/survival/DIM0. Memory: 1504MB total, 636MB free 
-[13:03:40] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
-[13:59:49] [Client thread/INFO] [JourneymapClient] Mapping halted in /home/endervw/.minecraft/journeymap/data/sp/survival/DIM0
+[14:44:46] [Client thread/INFO] [ColorManager] Loading blocks and textures...
+[14:44:47] [Client thread/INFO] [BlockMD] Built BlockMD cache (1839) : BlockMD.reset count 1 avg 317.07ms
+[14:44:47] [Client thread/INFO] [ColorHelper_1_7_10] initBlocksTexture: 2048x2048 loaded in 320.36268ms
+[14:44:47] [Client thread/INFO] [ColorPalette] Existing color palette's resource packs and mod names match current loadout.
+[14:44:47] [Client thread/INFO] [ColorManager] Loaded 1660 block colors from color palette file in 26ms: /home/endervw/.minecraft/journeymap/colorpalette.json
+[14:44:47] [Client thread/INFO] [ColorManager] Initialized 11 block colors from mods and resource packs in 38ms
+[14:44:47] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:1] (OpenToSky,Transparency,Error,TransparentRoof)
+[14:44:47] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:3] (OpenToSky,Transparency,Error,TransparentRoof)
+[14:44:47] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:5] (OpenToSky,Transparency,Error,TransparentRoof)
+[14:44:47] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [ForgeMultipart:block:0] (Transparency,Error)
+[14:44:47] [Client thread/INFO] [ColorPalette] Color palette file generated with 1660 colors in 137ms for: /home/endervw/.minecraft/journeymap/colorpalette.json
+[14:44:47] [Client thread/INFO] [ColorManager] Updated color palette file: /home/endervw/.minecraft/journeymap/colorpalette.json
