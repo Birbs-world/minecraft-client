@@ -1,28 +1,36 @@
-[14:47:26] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[14:47:26] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[14:47:26] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[14:47:26] [main/INFO]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
-[14:47:26] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.15.0-43-generic, installed at /usr/lib/jvm/java-8-oracle/jre
-[14:47:26] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:47:26] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[14:47:26] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:47:26] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:47:26] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:47:30] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[14:47:30] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
-[14:47:30] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:47:30] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[14:47:31] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[14:47:31] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[14:47:31] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[14:47:33] [main/INFO]: Setting user: endervw
-[14:47:36] [Client thread/INFO]: LWJGL Version: 2.9.1
-[14:47:37] [Client thread/INFO]: [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
-[14:47:37] [Client thread/ERROR]: Couldn't initialize twitch stream
-[14:47:38] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
-// Why is it breaking :(
+[15:49:11] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:49:11] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:49:11] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[15:49:11] [main/INFO]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[15:49:11] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.15.0-43-generic, installed at /usr/lib/jvm/java-8-oracle/jre
+[15:49:11] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:49:14] [main/INFO]: [codechicken.core.launch.DepLoader$DepLoadInst:download:343]: Download complete
+[15:49:14] [main/WARN]: The coremod cofh.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:49:14] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:49:14] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:49:14] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[15:49:14] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:49:14] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:49:14] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:49:18] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[15:49:18] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[15:49:18] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:49:18] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:49:18] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:49:18] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:49:18] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[15:49:19] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:49:19] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[15:49:19] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[15:49:19] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[15:49:21] [main/INFO]: Setting user: endervw
+[15:49:25] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:49:26] [Client thread/INFO]: [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
+[15:49:26] [Client thread/ERROR]: Couldn't initialize twitch stream
+[15:49:27] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
 
-Time: 27/12/18 2:47 PM
+Time: 27/12/18 3:49 PM
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -37,70 +45,134 @@ Details:
 	Operating System: Linux (amd64) version 4.15.0-43-generic
 	Java Version: 1.8.0_191, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 86232528 bytes (82 MB) / 167772160 bytes (160 MB) up to 2147483648 bytes (2048 MB)
+	Memory: 67195048 bytes (64 MB) / 167772160 bytes (160 MB) up to 2147483648 bytes (2048 MB)
 	JVM Flags: 7 total; -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
 	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 18.0.5' Renderer: 'Mesa DRI Intel(R) Bay Trail '
-[14:47:38] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[14:47:38] [Client thread/INFO]: MinecraftForge v10.13.4.1614 Initialized
-[14:47:38] [Client thread/INFO]: Replaced 183 ore recipies
-[14:47:38] [Client thread/INFO]: Completed early MinecraftForge initialization
-[14:47:38] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[14:47:38] [Client thread/INFO]: Searching /home/endervw/.minecraft/mods for mods
-[14:47:55] [Client thread/INFO]: Forge Mod Loader has identified 3 mods to load
-[14:47:56] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge] at CLIENT
-[14:47:56] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
-[14:47:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
-[14:47:56] [Client thread/INFO]: Processing ObjectHolder annotations
-[14:47:57] [Client thread/INFO]: Found 341 ObjectHolder annotations
-[14:47:57] [Client thread/INFO]: Identifying ItemStackHolder annotations
-[14:47:57] [Client thread/INFO]: Found 0 ItemStackHolder annotations
-[14:47:57] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[14:47:57] [Client thread/INFO]: Applying holder lookups
-[14:47:57] [Client thread/INFO]: Holder lookups applied
-[14:47:57] [Client thread/INFO]: Injecting itemstacks
-[14:47:57] [Client thread/INFO]: Itemstack injection complete
-[14:47:57] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[14:47:57] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[14:47:57] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[14:47:57] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[14:47:57] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[14:47:58] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[14:47:58] [Sound Library Loader/INFO]: Sound engine started
-[14:47:58] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[14:47:58] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[14:47:58] [Client thread/INFO]: Injecting itemstacks
-[14:47:58] [Client thread/INFO]: Itemstack injection complete
-[14:47:59] [Client thread/INFO]: Forge Mod Loader has successfully loaded 3 mods
-[14:47:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
-[14:48:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:48:01] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:48:01] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[14:48:01] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[14:48:01] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[14:48:01] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[14:48:01] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[14:48:01] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[14:48:01] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[14:48:01] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[14:48:01] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[14:48:01] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[14:48:01] [Sound Library Loader/INFO]: Sound engine started
-[14:50:23] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
-[14:50:24] [Client thread/INFO]: Connecting to 192.168.1.8, 25565
-[14:50:25] [Netty Client IO #1/INFO]: Server protocol version 2
-[14:50:25] [Netty Client IO #1/INFO]: Attempting connection with missing mods [] at SERVER
-[14:50:26] [Netty Client IO #1/INFO]: Injecting existing block and item data into this client instance
-[14:50:26] [Netty Client IO #1/INFO]: Applying holder lookups
-[14:50:26] [Netty Client IO #1/INFO]: Holder lookups applied
-[14:50:26] [Client thread/INFO]: [Client thread] Client side modded connection established
-[14:50:41] [Client thread/INFO]: [CHAT] [Server: Stopping the server]
-[14:50:41] [Client thread/INFO]: Applying holder lookups
-[14:50:41] [Client thread/INFO]: Holder lookups applied
-[14:52:11] [Client thread/INFO]: Stopping!
-[14:52:11] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[14:52:11] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[14:52:12] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[14:52:12] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:49:27] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[15:49:27] [Client thread/INFO]: MinecraftForge v10.13.4.1614 Initialized
+[15:49:28] [Client thread/INFO]: Replaced 183 ore recipies
+[15:49:28] [Client thread/INFO]: Completed early MinecraftForge initialization
+[15:49:28] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[15:49:28] [Client thread/INFO]: Searching /home/endervw/.minecraft/mods for mods
+[15:49:28] [Client thread/INFO]: Also searching /home/endervw/.minecraft/mods/1.7.10 for mods
+[15:49:44] [Client thread/INFO]: Forge Mod Loader has identified 11 mods to load
+[15:49:45] [Client thread/INFO]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.3.138-universal.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[15:49:45] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, <CoFH ASM>, CoFHCore, Mantle, ProjectE, Waila, WailaHarvestability] at CLIENT
+[15:49:45] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, <CoFH ASM>, CoFHCore, Mantle, ProjectE, Waila, WailaHarvestability] at SERVER
+[15:49:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Mantle, FMLFileResourcePack:ProjectE, FMLFileResourcePack:Waila, FMLFileResourcePack:Waila Harvestability
+[15:49:47] [Client thread/INFO]: Processing ObjectHolder annotations
+[15:49:47] [Client thread/INFO]: Found 337 ObjectHolder annotations
+[15:49:47] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[15:49:47] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[15:49:47] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[15:49:47] [Client thread/INFO]: Registering Default Templates.
+[15:49:47] [Client thread/INFO]: Registering default generators
+[15:49:48] [Client thread/INFO]: Complete
+[15:49:48] [Client thread/INFO]: Mantle (1.7.10-0.3.2.jenkins191) -- Preparing for launch.
+[15:49:48] [Client thread/INFO]: Entering preinitialization phase.
+[15:49:48] [Client thread/INFO]: Loading configuration from disk.
+[15:49:48] [Client thread/INFO]: Configuration load completed.
+[15:49:48] [Client thread/INFO]: Loaded configuration file.
+[15:49:49] [CoFHUpdater:CoFHCore/ERROR]: Update check for CoFH Core failed.
+java.io.FileNotFoundException: https://raw.githubusercontent.com/CoFH/Version/master/CoFHCore
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:91) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1484) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1482) ~[?:1.8.0_191]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_191]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1481) ~[?:1.8.0_191]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263) ~[?:1.8.0_191]
+	at java.net.URL.openStream(URL.java:1045) ~[?:1.8.0_191]
+	at cofh.mod.updater.UpdateCheckThread.run(UpdateCheckThread.java:44) [UpdateCheckThread.class:?]
+[15:49:50] [Client thread/INFO]: Applying holder lookups
+[15:49:50] [Client thread/INFO]: Holder lookups applied
+[15:49:50] [Client thread/INFO]: Injecting itemstacks
+[15:49:50] [Client thread/INFO]: Itemstack injection complete
+[15:49:50] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:49:50] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[15:49:51] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[15:49:51] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:49:51] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[15:49:51] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:49:51] [Sound Library Loader/INFO]: Sound engine started
+[15:49:52] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:49:52] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:49:53] [Client thread/INFO]: Entering initialization phase.
+[15:49:53] [Client thread/INFO]: Receiving registration request from [ WailaHarvestability ] for method squeek.wailaharvestability.WailaHandler.callbackRegister
+[15:49:53] [Client thread/INFO]: Injecting itemstacks
+[15:49:53] [Client thread/INFO]: Itemstack injection complete
+[15:49:54] [Client thread/INFO]: Entering postinitialization phase.
+[15:49:54] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[15:49:54] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for TConstruct:pickaxe
+[15:49:54] [Client thread/FATAL]: At line: 5
+[15:49:54] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for ExtraUtilities:unstableingot
+[15:49:54] [Client thread/FATAL]: At line: 6
+[15:49:54] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for ExtraUtilities:unstableIngot
+[15:49:54] [Client thread/FATAL]: At line: 7
+[15:49:54] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for Botania:specialFlower
+[15:49:54] [Client thread/FATAL]: At line: 8
+[15:49:55] [Client thread/INFO]: [mcp.mobius.waila.gui.truetyper.TrueTypeFont:<init>:98]: TrueTypeFont loaded: java.awt.Font[family=Minecraftia,name=Minecraftia Regular,style=plain,size=14] - AntiAlias = true
+[15:49:55] [Client thread/INFO]: CoFH Core found 2 World Generation files present in /home/endervw/.minecraft/config/cofh/world/.
+[15:49:55] [Client thread/INFO]: Reading world generation info from: /home/endervw/.minecraft/config/cofh/world/ThermalFoundation-Ores.json:
+[15:49:55] [Client thread/ERROR]: Invalid block entry!
+[15:49:55] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
+[15:49:55] [Client thread/ERROR]: Error parsing generation entry: "copper" > Please check the parameters. It *may* be a duplicate.
+[15:49:55] [Client thread/ERROR]: Invalid block entry!
+[15:49:55] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
+[15:49:55] [Client thread/ERROR]: Error parsing generation entry: "tin" > Please check the parameters. It *may* be a duplicate.
+[15:49:55] [Client thread/ERROR]: Invalid block entry!
+[15:49:55] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
+[15:49:55] [Client thread/ERROR]: Error parsing generation entry: "silver" > Please check the parameters. It *may* be a duplicate.
+[15:49:55] [Client thread/ERROR]: Invalid block entry!
+[15:49:55] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
+[15:49:55] [Client thread/ERROR]: Error parsing generation entry: "lead" > Please check the parameters. It *may* be a duplicate.
+[15:49:55] [Client thread/ERROR]: Invalid block entry!
+[15:49:55] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
+[15:49:55] [Client thread/ERROR]: Error parsing generation entry: "nickel" > Please check the parameters. It *may* be a duplicate.
+[15:49:55] [Client thread/ERROR]: Invalid block entry!
+[15:49:55] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
+[15:49:55] [Client thread/ERROR]: Error parsing generation entry: "platinum" > Please check the parameters. It *may* be a duplicate.
+[15:49:55] [Client thread/ERROR]: Invalid block entry!
+[15:49:55] [Client thread/WARN]: Template 'uniform' failed to parse its entry!
+[15:49:55] [Client thread/ERROR]: Error parsing generation entry: "copperHigh" > Please check the parameters. It *may* be a duplicate.
+[15:49:55] [Client thread/WARN]: [BC] Class not found. java.lang.ClassNotFoundException: buildcraft.factory.TileTank
+[15:49:55] [Client thread/WARN]: [IndustrialCraft 2] Error while loading generator hooks.java.lang.ClassNotFoundException: ic2.core.block.generator.tileentity.TileEntityBaseGenerator
+[15:49:55] [Client thread/WARN]: [Thaumcraft] Class not found. java.lang.ClassNotFoundException: thaumcraft.common.Thaumcraft
+[15:49:55] [Client thread/INFO]: [EnderStorage] EnderStorage mod not found.
+[15:49:55] [Client thread/INFO]: [GraveStone] GraveStone mod not found.
+[15:49:55] [Client thread/INFO]: [TwilightForestMod] TwilightForestMod mod not found.
+[15:49:55] [Client thread/WARN]: [Thermal Expansion] Error while loading Energy Cell hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.cell.TileCell
+[15:49:55] [Client thread/WARN]: [Thermal Expansion] Error while loading Tank hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.tank.TileTank
+[15:49:55] [Client thread/WARN]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.ender.TileTesseract
+[15:49:55] [Client thread/WARN]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.cache.TileCache
+[15:49:55] [Client thread/WARN]: [Thermal Dynamics] Error while loading FluidDuct hooks.java.lang.ClassNotFoundException: cofh.thermaldynamics.ducts.fluid.TileFluidDuct
+[15:49:55] [Client thread/INFO]: [Engineer Toolbox] Engineer Toolbox mod not found.
+[15:49:55] [Client thread/INFO]: [ProjectRed] ProjectRed|Integration mod not found.
+[15:49:55] [Client thread/INFO]: [ExtraUtilities] ExtraUtilities mod not found.
+[15:49:55] [Client thread/INFO]: [OpenBlocks] OpenBlocks mod not found.
+[15:49:55] [Client thread/INFO]: [Railcraft] Railcraft mod not found.
+[15:49:55] [Client thread/INFO]: [PamHarvestCraft] PamHarvestCraft mod not found.
+[15:49:55] [Client thread/INFO]: [MagicalCrops] MagicalCrops mod not found.
+[15:49:55] [Client thread/INFO]: [Statues] Statues mod not found.
+[15:49:55] [Client thread/INFO]: [Agriculture] Agriculture mod not found.
+[15:49:55] [Client thread/INFO]: Trying to reflect squeek.wailaharvestability.WailaHandler callbackRegister
+[15:49:56] [Client thread/INFO]: Success in registering WailaHarvestability
+[15:49:56] [Client thread/INFO]: Forge Mod Loader has successfully loaded 11 mods
+[15:49:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Mantle, FMLFileResourcePack:ProjectE, FMLFileResourcePack:Waila, FMLFileResourcePack:Waila Harvestability
+[15:49:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:49:57] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[15:49:57] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:49:57] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[15:49:58] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[15:49:58] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:49:58] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:49:58] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[15:49:58] [Thread-12/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[15:49:58] [Thread-12/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:49:58] [Thread-12/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[15:49:58] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:49:58] [Sound Library Loader/INFO]: Sound engine started
